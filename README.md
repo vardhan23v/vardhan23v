@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey+there!+I'm+Sree+Vardhan+%F0%9F%91%8B;Full+Stack+Developer+%F0%9F%9A%80;CS+Student+%F0%9F%92%BB;Open+Source+Enthusiast+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%20there!%20I'm%20Sree%20Vardhan%20%F0%9F%91%8B;Full%20Stack%20Developer%20%F0%9F%9A%80;CS%20Student%20%F0%9F%92%BB;Open%20Source%20Enthusiast%20%E2%9C%A8" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -44,7 +44,9 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vardhan23v&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Trophy" />
+  <a href="https://github.com/vardhan23v">
+    <img src="https://github-profile-trophy.vercel.app/?username=vardhan23v&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Trophy" />
+  </a>
 </p>
 
 ---
@@ -52,22 +54,22 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vardhan23v&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" alt="Top Languages" height="170"/>
+  <a href="https://github.com/vardhan23v">
+    <img src="https://github-readme-stats.vercel.app/api?username=vardhan23v&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" alt="GitHub Stats" height="170"/>
+  </a>
+  <a href="https://github.com/vardhan23v">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" alt="Top Languages" height="170"/>
+  </a>
 </p>
 
 <br>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" width="100%" src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
+</p>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" alt="Footer Wave" />
 </p>
