@@ -100,17 +100,17 @@
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFD0&text_color=C9D1D9" alt="Top Languages" />
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <br>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
-        <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
-      </picture>
-    </td>
-  </tr>
 </table>
+
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" width="100%" src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 <br>
 
