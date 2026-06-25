@@ -41,6 +41,14 @@
 
 ---
 
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=vardhan23v&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Trophy" />
+</p>
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -48,12 +56,18 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" alt="Top Languages" height="170"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vardhan23v&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak" />
-</p>
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" width="100%" src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 ---
 
 <p align="center">
-  <i>💡 "Building things that matter, one commit at a time."</i>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" />
 </p>
