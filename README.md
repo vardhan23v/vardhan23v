@@ -2,6 +2,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%20there!%20I'm%20Sree%20Vardhan%20%F0%9F%91%8B;Full%20Stack%20Developer%20%F0%9F%9A%80;CS%20Student%20%F0%9F%92%BB;Open%20Source%20Enthusiast%20%E2%9C%A8" alt="Typing SVG" />
 </h1>
 
+<p align="center">
+  <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <img src="https://komarev.com/ghpvc/?username=vardhan23v&style=for-the-badge&color=6C63FF" alt="Profile Views"/>
+</p>
+
 [![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
 
 # 🛠 Technologies & Projects
