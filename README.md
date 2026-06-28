@@ -113,12 +113,12 @@ I’m open to collaborating on:
 
 <br>
 
-<a href="mailto:vardhan23v2005@gmail.com">
+<a href="mailto:23vvardhan@gmail.com">
   <img src="https://img.shields.io/badge/email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email contact link">
 </a>
 <br><br>
 
-<a href="https://linkedin.com">
+<a href="https://www.linkedin.com/in/vardhan-vs23012007/">
   <img src="https://img.shields.io/badge/linkedin-Let's%20Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
 </a>
 
