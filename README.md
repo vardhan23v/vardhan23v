@@ -30,6 +30,7 @@
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [⚡ Task Tracker SaaS](https://github.com/vardhan23v/task-tracker-saas) | Premium AI-powered task management platform | React, Node.js, MongoDB, Groq AI |
 | [✨ Extension AI](https://github.com/vardhan23v/extension-AI) | Build Chrome Extensions with plain English using AI | React, Node.js, MongoDB, Gemini AI |
 | [🎓 Campus Compass](https://github.com/vardhan23v/campus-compass) | College discovery & comparison platform | Next.js, Prisma, PostgreSQL, NextAuth |
 | [💼 CareerForge Pro](https://github.com/vardhan23v/career-forge-pro) | AI-powered resume builder & career toolkit | React, Express, Gemini AI |
