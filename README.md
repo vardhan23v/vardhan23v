@@ -45,10 +45,12 @@
 
 <div align="left" style="font-size: 14px;">
 <ul>
+  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a></li>
   <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase Multi-Step Form</a></li>
   <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a></li>
   <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a></li>
   <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a></li>
+  <li><a href="https://github.com/vardhan23v/codereviewer">🤖 AI Code Reviewer</a></li>
   <li><a href="https://github.com/vardhan23v/Drivenest">🚗 Drive Nest</a></li>
   <li><a href="https://github.com/vardhan23v/paradise">🎬 THE PARADISE</a></li>
 </ul>
