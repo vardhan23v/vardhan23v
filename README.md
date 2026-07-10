@@ -68,10 +68,7 @@
 
 <p align="center">
   <a href="https://github.com/vardhan23v">
-    <img src="https://github-readme-stats.vercel.app/api?username=vardhan23v&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" alt="GitHub Stats" height="170"/>
-  </a>
-  <a href="https://github.com/vardhan23v">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" alt="Top Languages" height="170"/>
+    <img src="https://streak-stats.demolab.com?user=vardhan23v&theme=radical&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak" height="170"/>
   </a>
 </p>
 
