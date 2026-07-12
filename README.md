@@ -57,12 +57,12 @@
 
 <div align="left" style="font-size: 14px;">
 <ul>
-  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a> — <i>Flagship</i></li>
+  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a> — <i>Flagship</i> · <a href="https://extension-ai-five.vercel.app">Live ↗</a></li>
   <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase</a> · <a href="https://pro1-pied.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a></li>
-  <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a></li>
-  <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a></li>
-  <li><a href="https://github.com/vardhan23v/codereviewer">🤖 AI Code Reviewer</a></li>
+  <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a> · <a href="https://task-tracker-rose-ten-60.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a> · <a href="https://campus-compass-fawn.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a> · <a href="https://career-forge-pro-phi.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/codereviewer">🤖 AI Code Reviewer</a> · <a href="https://codereviewer-eta.vercel.app">Live ↗</a></li>
   <li><a href="https://github.com/vardhan23v/Drivenest">🚗 Drive Nest</a></li>
   <li><a href="https://github.com/vardhan23v/paradise">🎬 THE PARADISE</a></li>
 </ul>
