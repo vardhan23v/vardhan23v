@@ -11,32 +11,6 @@
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                    NEOFETCH TERMINAL                    -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-```
-                    @@@@@@@@@@@@@@@@@@@@            vardhan23v@github
-                 @@@@@@@@@@@@@@@@@@@@@@@@@@         ──────────────────────────
-               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       OS      NMAMIT // CSE (Nitte University)
-             @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@     Host    Full-Stack Developer + GenAI
-            @@@@@@@@@@@@@@      @@@@@@@@@@@@@@@@    Kernel  React · Next.js · Node.js · TypeScript
-           @@@@@@@@@@@@@@        @@@@@@@@@@@@@@@@   Shell   VS Code / Cursor
-          @@@@@@@@@@@@@@@@      @@@@@@@@@@@@@@@@@@  Uptime  3+ years shipping code
-          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  RAM     Zustand, Redux, Context API
-          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   CPU     Zod + React Hook Form + Framer Motion
-           @@@@@@@@@@@@@@        @@@@@@@@@@@@@@@    GPU     Tailwind CSS + Glassmorphism
-            @@@@@@@@@@@@@@      @@@@@@@@@@@@@@@     Disk    MongoDB · PostgreSQL · Prisma
-             @@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@
-               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@       ████████████████████████  JS/TS
-                 @@@@@@@@@@@@@@@@@@@@@@@@@@         ████████████████          React
-                    @@@@@@@@@@@@@@@@@@@@            ██████████████            Node.js
-                                                   ████████████              Python
-```
-
----
-
 ### 🔨 Currently Working On
 
 > **Extensio.ai v2** — AI-powered Chrome extension generator from natural language prompts.  
@@ -46,96 +20,69 @@
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--               CHOOSE YOUR ADVENTURE                     -->
-<!-- ═══════════════════════════════════════════════════════ -->
+## 🛠 Technologies & Projects
 
-## 🗺️ Explore My Work
+<table border="0" cellspacing="10" cellpadding="0" width="100%">
+<tr>
 
-> **Pick a path — click to expand:**
+<!-- LEFT: ABOUT ME -->
+<td width="300" valign="top" align="center">
+<h3>🧑‍💻 About Me</h3>
+<br>
+<div align="left" style="font-size: 14px;">
+<ul>
+  <li>🎓 <b>CS Student @ NMAMIT</b>, Nitte University</li>
+  <li>🚀 Exploring <b>AI, Web Development & Open Source</b></li>
+  <li>💡 I ship polished, production-ready projects — not tutorial clones</li>
+  <li>🏢 <b>Web Dev Intern @ Zetheta Algorithms</b></li>
+  <li>🌍 Based in <b>India</b></li>
+</ul>
+</div>
+</td>
 
-<details>
-<summary>🤖 <b>AI / ML Projects</b> — Chrome extension generators, code reviewers, and intelligent tools</summary>
+<!-- MIDDLE: TECH STACK -->
+<td width="300" valign="top" align="center">
+
+<h3>🛠️ Tech Stack</h3>
+<br>
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,html,css,tailwind,python,mysql,postgresql,mongodb,prisma,git,github,vscode,vercel,vite&perline=5" alt="Tech Stack" />
+
+</td>
+
+<!-- RIGHT: PROJECTS -->
+<td width="300" valign="top" align="center">
+
+<h3>🔥 Top Projects</h3>
 <br>
 
-| Project | Description | Live |
-|---------|-------------|------|
-| [✨ **Extensio.ai**](https://github.com/vardhan23v/extension-AI) | AI-powered Chrome extension generator from natural language prompts. **Flagship project.** | [Live ↗](https://extension-ai-five.vercel.app) |
-| [🤖 **AI Code Reviewer**](https://github.com/vardhan23v/codereviewer) | Code review tool with Claude API, Monaco Editor, and Recharts analytics | [Live ↗](https://codereviewer-eta.vercel.app) |
+<div align="left" style="font-size: 14px;">
+<ul>
+  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a> — <i>Flagship</i> · <a href="https://extension-ai-five.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase</a> · <a href="https://pro1-pied.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a> · <a href="https://task-tracker-rose-ten-60.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a> · <a href="https://campus-compass-fawn.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a> · <a href="https://career-forge-pro-phi.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/codereviewer">🤖 AI Code Reviewer</a> · <a href="https://codereviewer-eta.vercel.app">Live ↗</a></li>
+  <li><a href="https://github.com/vardhan23v/Drivenest">🚗 Drive Nest</a></li>
+  <li><a href="https://github.com/vardhan23v/paradise">🎬 THE PARADISE</a></li>
+</ul>
+</div>
+<a href="https://github.com/vardhan23v?tab=repositories"><b>View all projects ➜</b></a>
 
-</details>
+</td>
 
-<details>
-<summary>🏗️ <b>Full-Stack Web Apps</b> — Production-grade platforms with real deployments</summary>
-<br>
-
-| Project | Description | Live |
-|---------|-------------|------|
-| [🏦 **LoanEase**](https://github.com/vardhan23v/LoanEase-Multi-Step-Form) | 8-step loan application form with Zustand, Zod, Framer Motion | [Live ↗](https://pro1-pied.vercel.app) |
-| [⚡ **Task Tracker SaaS**](https://github.com/vardhan23v/task-tracker-saas) | Full-featured task management SaaS platform | [Live ↗](https://task-tracker-rose-ten-60.vercel.app) |
-| [🎓 **Campus Compass**](https://github.com/vardhan23v/campus-compass) | College discovery and comparison platform | [Live ↗](https://campus-compass-fawn.vercel.app) |
-| [💼 **CareerForge Pro**](https://github.com/vardhan23v/career-forge-pro) | Career development and job readiness tool | [Live ↗](https://career-forge-pro-phi.vercel.app) |
-
-</details>
-
-<details>
-<summary>🎨 <b>Creative & Other Projects</b> — Fun builds, rental platforms, and entertainment apps</summary>
-<br>
-
-| Project | Description |
-|---------|-------------|
-| [🚗 **Drive Nest**](https://github.com/vardhan23v/Drivenest) | Vehicle rental platform |
-| [🎬 **THE PARADISE**](https://github.com/vardhan23v/paradise) | Entertainment streaming platform |
-
-</details>
-
-<p align="center">
-  <a href="https://github.com/vardhan23v?tab=repositories"><b>View all repositories ➜</b></a>
-</p>
+</tr>
+</table>
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   TECH STACK                            -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,html,css,tailwind,python,mysql,postgresql,mongodb,prisma,git,github,vscode,vercel,vite&perline=10" alt="Tech Stack" />
-</p>
-
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   GITHUB WRAPPED                        -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-## 🎁 GitHub Wrapped
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vardhan23v&theme=radical" width="95%" alt="Profile Details"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vardhan23v&theme=radical" width="32%" alt="Repos per Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=vardhan23v&theme=radical" width="32%" alt="Most Commit Language"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=vardhan23v&theme=radical&utcOffset=5.5" width="32%" alt="Productive Time"/>
-</p>
+### 📊 Vital Statistics
 
 <p align="center">
   <a href="https://github.com/vardhan23v">
     <img src="https://streak-stats.demolab.com?user=vardhan23v&theme=radical&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak" height="170"/>
   </a>
 </p>
-
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
-
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                   ACTIVITY                              -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
-### 📈 Contribution Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vardhan23v&theme=react-dark&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF" width="95%" alt="Contribution Graph"/>
@@ -147,13 +94,10 @@
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--                 EXPERIENCE & COLLAB                     -->
-<!-- ═══════════════════════════════════════════════════════ -->
-
 <table width="100%" border="0" cellspacing="10" cellpadding="0">
 <tr>
 
+<!-- LEFT: EXPERIENCE -->
 <td width="50%" valign="top">
 
 <h2>🏢 Experience</h2>
@@ -164,6 +108,7 @@
 
 </td>
 
+<!-- RIGHT: COLLAB -->
 <td width="50%" valign="top">
 
 <h2>🤝 Collaboration</h2>
