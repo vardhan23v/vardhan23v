@@ -16,19 +16,7 @@
 > **Extensio.ai v2** — AI-powered Chrome extension generator from natural language prompts.  
 > 15-feature / 4-phase roadmap in progress. [Check it out →](https://github.com/vardhan23v/extension-AI)
 
-### 📚 Currently Learning
-
-`Docker` · `Redis` · `System Design` · `GraphQL` · `CI/CD Pipelines`
-
 ---
-
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-trophies.vercel.app/?username=vardhan23v&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
-</p>
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
 
@@ -88,19 +76,6 @@
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
 
-### 🃏 Featured Project Cards
-
-<p align="center">
-  <a href="https://github.com/vardhan23v/extension-AI">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vardhan23v&repo=extension-AI&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" alt="Extension AI"/>
-  </a>
-  <a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vardhan23v&repo=LoanEase-Multi-Step-Form&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" alt="LoanEase"/>
-  </a>
-</p>
-
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
-
 ### 📊 Vital Statistics
 
 <p align="center">
@@ -153,10 +128,6 @@ I'm open to collaborating on:
 </table>
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
-</p>
 
 <p align="center">
   <b>🎧 Fun fact:</b> I debug better with lo-fi beats and mass amounts of chai ☕
