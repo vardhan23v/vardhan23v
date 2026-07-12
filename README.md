@@ -1,139 +1,74 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%20there!%20I'm%20Sree%20Vardhan%20%F0%9F%91%8B;Full%20Stack%20Developer%20%F0%9F%9A%80;CS%20Student%20%F0%9F%92%BB;Open%20Source%20Enthusiast%20%E2%9C%A8" alt="Typing SVG" />
-</h1>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <img src="https://komarev.com/ghpvc/?username=vardhan23v&style=for-the-badge&color=6C63FF" alt="Profile Views"/>
-</p>
+```
++)oyjrili"^_::^=="/==+)/=^"{3qqqm6ggmp5zv+   vardhan23v ~ %
+oFTr"^"|/=^+/+^^==+^^;;;^,,/lu6SghEXVVd4Vw   ------------------------
+Gq*\//"/+;;;,'_/+:''',_-:;,_:/IgZbbbOYbbbY   OS: NMAMIT // CSE
+&P>_^;,'-____-^\"=)v\)+'_',--,)SYbGY&YPPXg   Host: Personal Dev Rig
+$UI .'`.`_=)|")/^^<l}*<^+//\;=]gXXXgggEEEE   Kernel: Full-Stack + GenAI
+bYPn".  '{oe}xi}r,"v!al<}l%]1ngVdOAgdVVVVV   IDE: VS Code / Cursor
+SSg4p).`=zJuLjea[?[[euuottz#yEPXXPGbGXXg44   
+Jwy32x)^={uTTCywJnLt{r{*]nLuT4&H&XggXb$HO4   Languages.Programming:
+>s#32js)r}ttezjjuT#z!{llItzoemhEEhFw5GBHd3     JavaScript, TypeScript,
+\{w6pFCze}r{I??[e7!xcr{}IcrtzCL5533eeVAYVF     Python, Node.js
+c?2SqqSm3I%rr{*I!Ir{}rcc{?Lo!I3Y46A4SAkPgE   Languages.Web:
+meJ5353yTuIi%%crrr}?]1?{*!gJ\>\%?72yCFg4XO     React, Next.js, Express
+{iv%)>||)\;)x>)|)\>vv)\|")f4%/`_',;=^^">c1   
+;;,::-_+\^{Icxv>)+^;;,;|%*2A61{i=:;;;^+"|\   Focus: AI-integrated
+''_^"=/%>=Cu>xvvv>|/=i[n333yFVGg5t/:,;=/|<     full-stack apps
+_`_c)/)%|;[VI+|\\|==*wu[l*]}I[nSOEL::,^+/|   
+' 'l)%>)/=)547)|/|lono1![#CJ332dYA7`_,;;=/   Currently Building:
++-+v>c>\|^/e3#1?tLJ#uj7oa1??tLC26Em_-;;=""     Extensio.ai (flagship)
+"/)|v%\|)")\x)rj#Tnue}{s}}[?!1]}{]nev,^/""   
+                                             Contact ----------------
+                                             Email:    your@email.com
+                                             GitHub:   vardhan23v
+                                             LinkedIn: /in/vardhan-v23
+```
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
-
-# 🛠 Technologies & Projects
-
-<table border="0" cellspacing="10" cellpadding="0" width="100%">
-<tr>
-
-<!-- LEFT: ABOUT ME -->
-<td width="300" valign="top" align="center">
-<h3>🧑‍💻 About Me</h3>
-<br>
-<div align="left" style="font-size: 14px;">
-<ul>
-  <li>🎓 <b>CS Student</b> passionate about building real-world applications</li>
-  <li>🚀 Exploring <b>AI, Web Development & Open Source</b></li>
-  <li>💡 I love turning ideas into polished, production-ready projects</li>
-  <li>🌍 Based in <b>India</b></li>
-</ul>
 </div>
-</td>
 
-<!-- MIDDLE: TECH STACK -->
-<td width="300" valign="top" align="center">
+---
 
-<h3>🛠️ Tech Stack</h3>
-<br>
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,html,css,tailwind,python,mysql,postgresql,mongodb,prisma,git,github,vscode,vercel,vite&perline=5" alt="Tech Stack" />
+### ⚡ About Me
 
-</td>
+CS Undergraduate at **NMAM Institute of Technology (NITTE)**, focused on **AI-integrated full-stack development**. I build and ship live, deployed projects rather than collect certificates — everything here is production-ready, not a tutorial clone.
 
-<!-- RIGHT: PROJECTS -->
-<td width="300" valign="top" align="center">
+### 🔧 Tech Stack
 
-<h3>🔥 Top Projects</h3>
-<br>
+`JavaScript` · `TypeScript` · `React` · `Next.js` · `Node.js` · `Express` · `MongoDB` · `PostgreSQL` · `Prisma` · `Claude / Gemini AI APIs`
 
-<div align="left" style="font-size: 14px;">
-<ul>
-  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a></li>
-  <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase Multi-Step Form</a></li>
-  <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a></li>
-  <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a></li>
-  <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a></li>
-  <li><a href="https://github.com/vardhan23v/codereviewer">🤖 AI Code Reviewer</a></li>
-  <li><a href="https://github.com/vardhan23v/Drivenest">🚗 Drive Nest</a></li>
-  <li><a href="https://github.com/vardhan23v/paradise">🎬 THE PARADISE</a></li>
-</ul>
+### 🚀 Top Projects
+
+- **[Extensio.ai](https://github.com/vardhan23v/extension-AI)** — Chrome extension generator powered by natural language prompts. Flagship project, past MVP, 15-feature / 4-phase roadmap in progress.
+- **AI Code Reviewer** — Code review tool built with the Claude API, Monaco Editor, and Recharts.
+- **Campus Compass** — Full-stack TypeScript college discovery platform.
+- **DriveNest** — Vehicle rental platform.
+- **Greenzy** — Farm-to-table e-commerce app.
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vardhan23v&show_icons=true&theme=synthwave&hide_border=true" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vardhan23v&theme=synthwave&hide_border=true" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=synthwave&hide_border=true" height="165"/>
+</p>
+
+### 🤝 Let's Connect
+
+I'm open to collaborating on full-stack web apps, AI-integrated SaaS tools, and open-source projects.
+
+<p align="center">
+  <a href="mailto:youremail@example.com">Email</a> ·
+  <a href="https://linkedin.com/in/vardhan-v23">LinkedIn</a> ·
+  <a href="https://github.com/vardhan23v">GitHub</a>
+</p>
+
+<div align="center">
+
+⭐ Star my repos if they helped you!
+
 </div>
-<a href="https://github.com/vardhan23v?tab=repositories"><b>View all projects ➜</b></a>
-
-</td>
-
-</tr>
-</table>
-
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
-
-### 📊 Vital Statistics
-
-<p align="center">
-  <a href="https://github.com/vardhan23v">
-    <img src="https://streak-stats.demolab.com?user=vardhan23v&theme=radical&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak" height="170"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vardhan23v&label=PROFILE%20VIEWS&color=6C63FF&style=flat-square" alt="Views" />
-</p>
-
-<br>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
-</p>
-
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
-
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-<tr>
-
-<!-- LEFT: COLLAB -->
-<td width="50%" valign="top">
-
-<h2>🤝 Collaboration</h2>
-
-I’m open to collaborating on:
-
-<ul>
-  <li>Full-stack Web Applications</li>
-  <li>AI-integrated SaaS Tools</li>
-  <li>Open Source Projects</li>
-  <li>Hackathons & Competitions</li>
-</ul>
-
-</td>
-
-
-<!-- RIGHT: CONTACT -->
-<td width="50%" valign="top" align="center">
-
-<h2>📫 Contact</h2>
-
-<br>
-
-<a href="mailto:23vvardhan@gmail.com">
-  <img src="https://img.shields.io/badge/email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email contact link">
-</a>
-<br><br>
-
-<a href="https://www.linkedin.com/in/vardhan-vs23012007/">
-  <img src="https://img.shields.io/badge/linkedin-Let's%20Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
-</a>
-
-</td>
-
-</tr>
-</table>
-
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
-
-<p align="center">
-⚡ Building polished, production-ready AI applications
-</p>
-<p align="center">
-Star ⭐ my repos if they helped you!
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" alt="Profile footer wave"/>
-</p>
