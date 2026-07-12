@@ -130,16 +130,5 @@ I'm open to collaborating on:
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
 
 <p align="center">
-  <b>🎧 Fun fact:</b> I debug better with lo-fi beats and mass amounts of chai ☕
-</p>
-
-<p align="center">
-⚡ Building polished, production-ready AI applications
-</p>
-<p align="center">
-Star ⭐ my repos if they helped you!
-</p>
-
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer" width="100%" alt="Footer"/>
 </p>
