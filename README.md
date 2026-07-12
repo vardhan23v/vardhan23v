@@ -1,15 +1,26 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira%20Code&weight=600&size=28&duration=4000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&lines=Hey%20there!%20I'm%20Sree%20Vardhan%20%F0%9F%91%8B;Full%20Stack%20Developer%20%F0%9F%9A%80;CS%20Student%20%F0%9F%92%BB;Open%20Source%20Enthusiast%20%E2%9C%A8" alt="Typing SVG" />
-</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=180&section=header&text=Sree%20Vardhan%20V&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=CS%20@%20NMAMIT%20·%20Shipping%20AI-powered%20products,%20not%20tutorials&descSize=16&descAlignY=52" width="100%" alt="Header"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/vardhan-vs23012007/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:23vvardhan@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://komarev.com/ghpvc/?username=vardhan23v&style=for-the-badge&color=6C63FF" alt="Profile Views"/>
 </p>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
+---
 
-# 🛠 Technologies & Projects
+### 🔨 Currently Working On
+
+> **Extensio.ai v2** — AI-powered Chrome extension generator from natural language prompts.  
+> 15-feature / 4-phase roadmap in progress. [Check it out →](https://github.com/vardhan23v/extension-AI)
+
+---
+
+[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
+
+## 🛠 Technologies & Projects
 
 <table border="0" cellspacing="10" cellpadding="0" width="100%">
 <tr>
@@ -20,9 +31,10 @@
 <br>
 <div align="left" style="font-size: 14px;">
 <ul>
-  <li>🎓 <b>CS Student</b> passionate about building real-world applications</li>
+  <li>🎓 <b>CS Student @ NMAMIT</b>, Nitte University</li>
   <li>🚀 Exploring <b>AI, Web Development & Open Source</b></li>
-  <li>💡 I love turning ideas into polished, production-ready projects</li>
+  <li>💡 I ship polished, production-ready projects — not tutorial clones</li>
+  <li>🏢 <b>Web Dev Intern @ Zetheta Algorithms</b></li>
   <li>🌍 Based in <b>India</b></li>
 </ul>
 </div>
@@ -45,8 +57,8 @@
 
 <div align="left" style="font-size: 14px;">
 <ul>
-  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a></li>
-  <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase Multi-Step Form</a></li>
+  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a> — <i>Flagship</i></li>
+  <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase</a> · <a href="https://pro1-pied.vercel.app">Live ↗</a></li>
   <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a></li>
   <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a></li>
   <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a></li>
@@ -62,7 +74,7 @@
 </tr>
 </table>
 
-[![divider_moving_neon_gradient](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
+[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
 
 ### 📊 Vital Statistics
 
@@ -73,26 +85,35 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vardhan23v&label=PROFILE%20VIEWS&color=6C63FF&style=flat-square" alt="Views" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vardhan23v&theme=react-dark&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF" width="95%" alt="Contribution Graph"/>
 </p>
-
-<br>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
 </p>
 
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
+[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
 
 <table width="100%" border="0" cellspacing="10" cellpadding="0">
 <tr>
 
-<!-- LEFT: COLLAB -->
+<!-- LEFT: EXPERIENCE -->
+<td width="50%" valign="top">
+
+<h2>🏢 Experience</h2>
+
+- **Web Development Intern** @ [Zetheta Algorithms Pvt. Ltd.](https://zetheta.com)  
+  *Built & deployed LoanEase — a production-grade 8-step loan application platform*  
+  `React` `TypeScript` `Zustand` `Zod` `Framer Motion`
+
+</td>
+
+<!-- RIGHT: COLLAB -->
 <td width="50%" valign="top">
 
 <h2>🤝 Collaboration</h2>
 
-I’m open to collaborating on:
+I'm open to collaborating on:
 
 <ul>
   <li>Full-stack Web Applications</li>
@@ -103,29 +124,14 @@ I’m open to collaborating on:
 
 </td>
 
-
-<!-- RIGHT: CONTACT -->
-<td width="50%" valign="top" align="center">
-
-<h2>📫 Contact</h2>
-
-<br>
-
-<a href="mailto:23vvardhan@gmail.com">
-  <img src="https://img.shields.io/badge/email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email contact link">
-</a>
-<br><br>
-
-<a href="https://www.linkedin.com/in/vardhan-vs23012007/">
-  <img src="https://img.shields.io/badge/linkedin-Let's%20Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn profile link">
-</a>
-
-</td>
-
 </tr>
 </table>
 
-[![divider_twin_serpant](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
+[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
+
+<p align="center">
+  <b>🎧 Fun fact:</b> I debug better with lo-fi beats and mass amounts of chai ☕
+</p>
 
 <p align="center">
 ⚡ Building polished, production-ready AI applications
@@ -135,5 +141,5 @@ Star ⭐ my repos if they helped you!
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" alt="Profile footer wave"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer" width="100%" alt="Footer"/>
 </p>
