@@ -94,24 +94,7 @@
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
 
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
-<tr>
-
-<!-- LEFT: EXPERIENCE -->
-<td width="50%" valign="top">
-
-<h2>🏢 Experience</h2>
-
-- **Web Development Intern** @ [Zetheta Algorithms Pvt. Ltd.](https://zetheta.com)  
-  *Built & deployed LoanEase — a production-grade 8-step loan application platform*  
-  `React` `TypeScript` `Zustand` `Zod` `Framer Motion`
-
-</td>
-
-<!-- RIGHT: COLLAB -->
-<td width="50%" valign="top">
-
-<h2>🤝 Collaboration</h2>
+## 🤝 Collaboration
 
 I'm open to collaborating on:
 
@@ -121,11 +104,6 @@ I'm open to collaborating on:
   <li>Open Source Projects</li>
   <li>Hackathons & Competitions</li>
 </ul>
-
-</td>
-
-</tr>
-</table>
 
 [![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
 
