@@ -135,25 +135,6 @@
     }
   }
   
-  /* Typing Animation Container */
-  .typing-container {
-    font-size: 1.2rem;
-    color: var(--fremen-blue);
-    margin-top: 15px;
-    min-height: 1.5em;
-  }
-  
-  .typing-text {
-    display: inline;
-    border-right: 2px solid var(--fremen-blue);
-    animation: blink 0.7s step-end infinite;
-  }
-  
-  @keyframes blink {
-    from, to { border-color: var(--fremen-blue); }
-    50% { border-color: transparent; }
-  }
-  
   .spice-quote {
     font-style: italic;
     color: var(--deep-orange);
@@ -531,9 +512,6 @@
   <!-- Cinematic Header -->
   <header class="cinematic-header">
     <h1 class="name-title">SREE VARDHAN V</h1>
-    <div class="typing-container">
-      <span class="typing-text" id="typing-text"></span>
-    </div>
     <p class="spice-quote">"The spice must flow — and so does the code."</p>
   </header>
 
@@ -805,48 +783,3 @@
   </footer>
 
 </div>
-
-<!-- Typing Animation Script -->
-<script>
-(function() {
-  const texts = [
-    "Senior Developer · Full-Stack Architect · AI Engineer",
-    "Building the future, one commit at a time",
-    "Turning ideas into reality with code",
-    "The spice of innovation flows through my veins"
-  ];
-  
-  let textIndex = 0;
-  let charIndex = 0;
-  let isDeleting = false;
-  const typingElement = document.getElementById('typing-text');
-  
-  function type() {
-    const currentText = texts[textIndex];
-    
-    if (isDeleting) {
-      typingElement.textContent = currentText.substring(0, charIndex - 1);
-      charIndex--;
-    } else {
-      typingElement.textContent = currentText.substring(0, charIndex + 1);
-      charIndex++;
-    }
-    
-    let typeSpeed = isDeleting ? 50 : 100;
-    
-    if (!isDeleting && charIndex === currentText.length) {
-      typeSpeed = 2000;
-      isDeleting = true;
-    } else if (isDeleting && charIndex === 0) {
-      isDeleting = false;
-      textIndex = (textIndex + 1) % texts.length;
-      typeSpeed = 500;
-    }
-    
-    setTimeout(type, typeSpeed);
-  }
-  
-  // Start typing after header animation completes
-  setTimeout(type, 2000);
-})();
-</script>
