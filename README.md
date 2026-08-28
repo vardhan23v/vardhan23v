@@ -23,8 +23,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=vardhan23v&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=D4A574&icon_color=C2622D&text_color=E8DCC4&border_color=3D2312&hide_border=false&rank_icon=github" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=dark&bg_color=0A0A0A&title_color=D4A574&text_color=E8DCC4&border_color=3D2312&hide_border=false" alt="Top Languages" height="165"/>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-github-stats.svg" alt="GitHub Stats" height="165"/>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-langs.svg" alt="Top Languages" height="165"/>
 
 <img src="https://streak-stats.demolab.com?user=vardhan23v&theme=dark&background=0A0A0A&border=3D2312&ring=D4A574&fire=E8833A&currStreakNum=E8DCC4&sideNums=E8DCC4&currStreakLabel=D4A574&sideLabels=D4A574&dates=8a7a66" alt="GitHub Streak" height="170"/>
 
