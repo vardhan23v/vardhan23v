@@ -723,6 +723,136 @@
       </div>
     </div>
     
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🌪️ DisasterMind AI — The Storm Sietch</h3>
+        <p>Multi-agent AI emergency response platform with real-time disaster simulation, digital-twin mapping, and SOS triage.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/Disastermind-ai" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🗣️ Vard AI — The Voice of the Desert</h3>
+        <p>Voice-first AI assistant with streaming chat, persistent memory, voice input, MCP tools, and Supabase auth.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/Vard-AI" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🚨 PaySecure DR — The Shield Wall</h3>
+        <p>Multi-region disaster recovery platform for payments — RPO under 1 minute, RTO under 5.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/paysecure-dr" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🔔 FinNotify — The Messenger Guild</h3>
+        <p>Event-driven financial notification engine with delivery tracking and dead-letter queues.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/financial-notifications" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>📈 PricePulse — The Market Oracle</h3>
+        <p>Smart price tracker and forecast assistant for Amazon and Flipkart with heuristic forecasting.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/pricepulse" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🚗 DriveNest — The Caravansary</h3>
+        <p>Full-stack vehicle rental platform with an animated glass UI and MySQL backend.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/Drivenest" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🃏 UNO Game — The Desert Cards</h3>
+        <p>Fully playable UNO card game in vanilla JS with a smart AI opponent.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/uno-game" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🎬 THE PARADISE — The Cinematic Sietch</h3>
+        <p>Cinematic movie landing page with rain effects, particle animations, and glassmorphism.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/paradise" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🌿 Greenzy — The Garden of Arrakis</h3>
+        <p>Farm-to-table green product marketplace built with pure HTML, CSS, and vanilla JS.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/Greenzy-main" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>📚 NoteVault — The Archive Sietch</h3>
+        <p>Interactive PDF reader and study hub for engineering students with a sleek dark UI.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/NoteVault" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>📚 Sem5 Learning Hub — The Library of Sietch</h3>
+        <p>Animated revision site with live SVG visualizations, automata simulators, and a CPU scheduler.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/sem5-learning-hub" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🧪 PromptLab Sprint — The Lab of Ideas</h3>
+        <p>Turn feature ideas into implementation plans with AI-generated task boards and tracking.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/promptlab-sprint" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🏗️ Capstone Skeleton — The Foundation</h3>
+        <p>Production-ready Next.js App Router starter with TypeScript, Tailwind, and Vercel deployment.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/capstone-skeleton" class="sietch-link">Code</a>
+      </div>
+    </div>
+
     <div style="text-align: center; margin-top: 20px;">
       <a href="https://github.com/vardhan23v?tab=repositories" style="color: var(--fremen-blue); font-size: 1rem;">
         🔍 Explore All Sietches →
