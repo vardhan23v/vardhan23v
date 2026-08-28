@@ -14,7 +14,7 @@
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-github-stats.svg" alt="GitHub Stats" height="165"/>
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-langs.svg" alt="Top Languages" height="165"/>
 
-<img src="https://streak-stats.demolab.com?user=vardhan23v&theme=dark&background=0A0A0A&border=3D2312&ring=D4A574&fire=E8833A&currStreakNum=E8DCC4&sideNums=E8DCC4&currStreakLabel=D4A574&sideLabels=D4A574&dates=8a7a66&border_radius=12" alt="GitHub Streak" height="165"/>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-streak.svg" alt="GitHub Streak" height="165"/>
 
 </div>
 
