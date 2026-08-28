@@ -13,10 +13,6 @@
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-stats.svg" width="100%" alt="Spice Harvested 12.4K · Commits This Cycle 527 · Sietches Built 15+ · Fremen Eyes ∞"/>
 
-> ### ⚔️ Now Forging
-> **Extensio.ai v2** — AI-powered Chrome extension generator from natural language prompts.
-> 15-feature / 4-phase roadmap in progress. [Enter the sietch →](https://github.com/vardhan23v/extension-AI)
-
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
 ## 📊 Spice Harvest Data
