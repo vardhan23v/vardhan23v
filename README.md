@@ -3,15 +3,7 @@
 <p align="center">
   <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-D4A574?style=for-the-badge&logo=vercel&logoColor=0A0A0A" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LINKEDIN-C2622D?style=for-the-badge&logo=linkedin&logoColor=E8DCC4" alt="LinkedIn"/></a>
-  <a href="https://github.com/vardhan23v?tab=followers"><img src="https://img.shields.io/github/followers/vardhan23v?style=for-the-badge&logo=github&label=FREMEN&color=3D2312&labelColor=0A0A0A&logoColor=D4A574" alt="Followers"/></a>
-  <img src="https://komarev.com/ghpvc/?username=vardhan23v&style=for-the-badge&color=C2622D&label=WATCHERS" alt="Profile Views"/>
 </p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Courier+Prime&weight=500&size=19&duration=3000&pause=1000&color=D4A574&center=true&vCenter=true&width=900&height=45&lines=The+spice+must+flow+%E2%80%94+and+so+does+the+code.;Fear+is+the+mind-killer.+Ship+anyway.;He+who+controls+the+code+controls+the+universe.;Walk+without+rhythm+%E2%80%94+commit+without+end." alt="Dune quotes"/>
-</p>
-
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-stats.svg" width="100%" alt="Spice Harvested 12.4K · Commits This Cycle 527 · Sietches Built 15+ · Fremen Eyes ∞"/>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
@@ -106,20 +98,6 @@
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-## 🐛 The Sandworm Path
-
-*Each grain a commit, each ripple a contribution.*
-
-<img src="https://ghchart.rshah.org/C2622D/vardhan23v" width="100%" alt="Contribution Graph"/>
-
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-spice.svg" width="100%" alt="Contribution Snake"/>
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
-
-## 🤝 Fremen Network
-
-*Open to joining forces for worthy causes:*
-
-`🌐 Full-Stack Applications` · `🤖 AI-Integrated SaaS` · `🔓 Open Source` · `🏆 Hackathons` · `🚀 Startup Ventures` · `📚 Developer Education`
-
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-footer.svg" width="100%" alt="May thy knife chip and shatter"/>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-footer.svg" width="100%" alt=""/>

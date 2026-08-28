@@ -69,11 +69,8 @@
       <path d="M-70 170 L-70 144 C40 132, 130 150, 260 141 S480 116, 610 121 S810 148, 950 138 S1160 128, 1270 140 L1270 170 Z" fill="#05030a"/>
     </g>
 
-    <g class="df-quote">
-      <text x="600" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" letter-spacing="1" fill="#C2622D" opacity="0.8" filter="url(#df-blur4)">May thy knife chip and shatter</text>
-      <text x="600" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" letter-spacing="1" fill="#D4A574">May thy knife chip and shatter</text>
-    </g>
-    <text x="600" y="92" text-anchor="middle" font-family="Copperplate, Georgia, serif" font-size="11" letter-spacing="4" fill="#E8DCC4" class="df-caps">BUILT ON ARRAKIS &#183; POWERED BY SPICE</text>
+    
+    
 
     <circle cx="320" cy="138" r="1.8" fill="#E8833A" opacity="0" class="df-p df-p1"/>
     <circle cx="560" cy="146" r="1.5" fill="#D4A574" opacity="0" class="df-p df-p2"/>
