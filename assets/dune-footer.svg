@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Dune sunset footer: May thy knife chip and shatter">
+  <title>Dune footer</title>
+  <defs>
+    <clipPath id="df-clip"><rect width="1200" height="170" rx="14" ry="14"/></clipPath>
+    <linearGradient id="df-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A0A0A"/>
+      <stop offset="0.42" stop-color="#120a06"/>
+      <stop offset="0.60" stop-color="#3D2312"/>
+      <stop offset="0.68" stop-color="#C2622D" stop-opacity="0.45"/>
+      <stop offset="0.78" stop-color="#C2622D" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#C2622D" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="df-sun">
+      <stop offset="0" stop-color="#E8833A"/>
+      <stop offset="0.4" stop-color="#E8833A" stop-opacity="0.85"/>
+      <stop offset="0.75" stop-color="#C2622D" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#C2622D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="df-blur8" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="df-blur4" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <style>
+    .df-breathe{animation:df-breathe 7s ease-in-out infinite alternate}
+    @keyframes df-breathe{from{opacity:.4}to{opacity:.8}}
+    .df-band{animation:df-band 7s ease-in-out infinite alternate}
+    @keyframes df-band{from{opacity:.07}to{opacity:.16}}
+    .df-drift{animation:df-drift 40s ease-in-out infinite alternate}
+    @keyframes df-drift{from{transform:translateX(-6px)}to{transform:translateX(6px)}}
+    .df-tw3{animation:df-tw 3.2s ease-in-out infinite alternate}
+    .df-tw4{animation:df-tw 4.1s ease-in-out infinite alternate}
+    .df-tw5{animation:df-tw 5s ease-in-out infinite alternate}
+    @keyframes df-tw{from{opacity:.15}to{opacity:.7}}
+    .df-quote{animation:df-fadein 1.5s ease-out .2s both}
+    @keyframes df-fadein{from{opacity:0}to{opacity:1}}
+    .df-caps{opacity:.45;animation:df-fadecaps 1.5s ease-out .6s both}
+    @keyframes df-fadecaps{from{opacity:0}to{opacity:.45}}
+    .df-p{animation:df-rise linear infinite}
+    @keyframes df-rise{0%{transform:translate(0,0);opacity:0}12%{opacity:.75}55%{opacity:.4}100%{transform:translate(10px,-118px);opacity:0}}
+    .df-p1{animation-duration:11s;animation-delay:-3s}
+    .df-p2{animation-duration:14s;animation-delay:-9s}
+    .df-p3{animation-duration:12.5s;animation-delay:-6s}
+    .df-p4{animation-duration:10s;animation-delay:-1s}
+  </style>
+  <g clip-path="url(#df-clip)">
+    <rect width="1200" height="170" fill="#0A0A0A"/>
+    <rect width="1200" height="170" fill="url(#df-sky)"/>
+
+    <circle cx="90" cy="26" r="1.1" fill="#E8DCC4" opacity="0.5" class="df-tw4"/>
+    <circle cx="150" cy="48" r="0.8" fill="#E8DCC4" opacity="0.2"/>
+    <circle cx="200" cy="14" r="0.9" fill="#E8DCC4" opacity="0.3"/>
+    <circle cx="340" cy="38" r="1.2" fill="#E8DCC4" opacity="0.6" class="df-tw3"/>
+    <circle cx="470" cy="20" r="0.8" fill="#E8DCC4" opacity="0.25"/>
+    <circle cx="640" cy="30" r="1.3" fill="#E8DCC4" opacity="0.55" class="df-tw5"/>
+    <circle cx="760" cy="12" r="1.0" fill="#E8DCC4" opacity="0.35"/>
+    <circle cx="880" cy="42" r="0.9" fill="#E8DCC4" opacity="0.3" class="df-tw4"/>
+    <circle cx="1000" cy="22" r="1.2" fill="#E8DCC4" opacity="0.5" class="df-tw3"/>
+    <circle cx="1110" cy="34" r="1.0" fill="#E8DCC4" opacity="0.4"/>
+
+    <ellipse cx="600" cy="116" rx="240" ry="22" fill="#C2622D" filter="url(#df-blur8)" class="df-band"/>
+    <circle cx="600" cy="118" r="30" fill="#C2622D" filter="url(#df-blur8)" class="df-breathe"/>
+    <circle cx="600" cy="118" r="34" fill="url(#df-sun)"/>
+
+    <path d="M-40 170 L-40 126 C60 112, 150 134, 280 124 S470 104, 600 118 S830 134, 960 120 S1150 108, 1240 122 L1240 170 Z" fill="#1c1008"/>
+    <g class="df-drift">
+      <path d="M-70 170 L-70 144 C40 132, 130 150, 260 141 S480 116, 610 121 S810 148, 950 138 S1160 128, 1270 140 L1270 170 Z" fill="#05030a"/>
+    </g>
+
+    <g class="df-quote">
+      <text x="600" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" letter-spacing="1" fill="#C2622D" opacity="0.8" filter="url(#df-blur4)">May thy knife chip and shatter</text>
+      <text x="600" y="64" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" letter-spacing="1" fill="#D4A574">May thy knife chip and shatter</text>
+    </g>
+    <text x="600" y="92" text-anchor="middle" font-family="Copperplate, Georgia, serif" font-size="11" letter-spacing="4" fill="#E8DCC4" class="df-caps">BUILT ON ARRAKIS &#183; POWERED BY SPICE</text>
+
+    <circle cx="320" cy="138" r="1.8" fill="#E8833A" opacity="0" class="df-p df-p1"/>
+    <circle cx="560" cy="146" r="1.5" fill="#D4A574" opacity="0" class="df-p df-p2"/>
+    <circle cx="730" cy="140" r="2" fill="#E8833A" opacity="0" class="df-p df-p3"/>
+    <circle cx="950" cy="150" r="1.6" fill="#D4A574" opacity="0" class="df-p df-p4"/>
+  </g>
+</svg>

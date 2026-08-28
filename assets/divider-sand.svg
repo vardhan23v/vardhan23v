@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="70" viewBox="0 0 1200 70" role="img" aria-label="Dune ridge section divider">
+  <style>
+    .dsg-mirror{animation:dsgBreath 6s ease-in-out infinite alternate}
+    @keyframes dsgBreath{from{opacity:0.2}to{opacity:0.5}}
+    .dsg-ember{animation:dsgEmber 5s ease-in-out infinite alternate}
+    @keyframes dsgEmber{from{opacity:0.3}to{opacity:0.75}}
+    .dsg-p{animation-name:dsgRise;animation-timing-function:linear;animation-iteration-count:infinite;opacity:0}
+    @keyframes dsgRise{0%{transform:translateY(0);opacity:0}15%{opacity:0.85}55%{opacity:0.5}85%{opacity:0}100%{transform:translateY(-40px);opacity:0}}
+    .dsg-p1{animation-duration:9s;animation-delay:-2s}
+    .dsg-p2{animation-duration:11.5s;animation-delay:-7s}
+    .dsg-p3{animation-duration:8.5s;animation-delay:-4.3s}
+    .dsg-p4{animation-duration:13s;animation-delay:-9.6s}
+    .dsg-p5{animation-duration:10s;animation-delay:-1.1s}
+    .dsg-p6{animation-duration:12s;animation-delay:-5.8s}
+  </style>
+  <defs>
+    <path id="dsg-ridge" d="M0 50 C100 50 180 36 300 36 C360 36 400 44 450 44 C500 44 520 26 600 26 C680 26 700 44 750 44 C800 44 840 36 900 36 C1020 36 1100 50 1200 50"/>
+    <linearGradient id="dsg-goldline" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#D4A574" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#D4A574" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#D4A574" stop-opacity="1"/>
+      <stop offset="0.84" stop-color="#D4A574" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#D4A574" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dsg-sweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0" stop-color="#FFE9C9" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#FFE9C9" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFE9C9" stop-opacity="0.3"/>
+      <stop offset="0.55" stop-color="#FFE9C9" stop-opacity="0"/>
+      <stop offset="1" stop-color="#FFE9C9" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1050 0; 1050 0; 1050 0" keyTimes="0;0.38;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="dsg-soft" x="-2%" y="-160%" width="104%" height="420%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="dsg-softsm" x="-160%" y="-160%" width="420%" height="420%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+  </defs>
+
+  <g class="dsg-mirror" opacity="0.35">
+    <use href="#dsg-ridge" xlink:href="#dsg-ridge" transform="translate(0 88) scale(1 -1)" fill="none" stroke="#C2622D" stroke-width="2" filter="url(#dsg-soft)"/>
+  </g>
+
+  <use href="#dsg-ridge" xlink:href="#dsg-ridge" fill="none" stroke="url(#dsg-goldline)" stroke-width="2" stroke-linecap="round"/>
+
+  <use href="#dsg-ridge" xlink:href="#dsg-ridge" fill="none" stroke="url(#dsg-sweep)" stroke-width="2.5"/>
+
+  <g transform="translate(600 26)">
+    <rect class="dsg-ember" x="-3.5" y="-3.5" width="7" height="7" transform="rotate(45)" fill="#C2622D" filter="url(#dsg-softsm)" opacity="0.5"/>
+    <rect x="-3.5" y="-3.5" width="7" height="7" transform="rotate(45)" fill="#D4A574"/>
+  </g>
+
+  <circle class="dsg-p dsg-p1" cx="230" cy="47" r="1.7" fill="#D4A574"/>
+  <circle class="dsg-p dsg-p2" cx="380" cy="44" r="2.2" fill="#D4A574"/>
+  <circle class="dsg-p dsg-p3" cx="520" cy="37" r="1.5" fill="#D4A574"/>
+  <circle class="dsg-p dsg-p4" cx="660" cy="38" r="2" fill="#D4A574"/>
+  <circle class="dsg-p dsg-p5" cx="800" cy="46" r="1.6" fill="#D4A574"/>
+  <circle class="dsg-p dsg-p6" cx="960" cy="42" r="1.9" fill="#D4A574"/>
+</svg>

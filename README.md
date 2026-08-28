@@ -1,112 +1,97 @@
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-header.svg" width="100%" alt="Sree Vardhan V — Full-Stack Developer, AI Builder"/>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=180&section=header&text=Sree%20Vardhan%20V&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=CS%20Undergraduate%20@%20NMAMIT%20·%20Shipping%20AI-powered%20products,%20not%20tutorials&descSize=16&descAlignY=52" width="100%" alt="Header"/>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-D4A574?style=for-the-badge&logo=vercel&logoColor=0A0A0A" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LINKEDIN-C2622D?style=for-the-badge&logo=linkedin&logoColor=E8DCC4" alt="LinkedIn"/></a>
+  <a href="https://github.com/vardhan23v?tab=followers"><img src="https://img.shields.io/github/followers/vardhan23v?style=for-the-badge&logo=github&label=FREMEN&color=3D2312&labelColor=0A0A0A&logoColor=D4A574" alt="Followers"/></a>
+  <img src="https://komarev.com/ghpvc/?username=vardhan23v&style=for-the-badge&color=C2622D&label=WATCHERS" alt="Profile Views"/>
 </p>
 
 <p align="center">
-  <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:23vvardhan@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=vardhan23v&style=for-the-badge&color=6C63FF" alt="Profile Views"/>
+  <img src="https://readme-typing-svg.demolab.com/?font=Courier+Prime&weight=500&size=19&duration=3000&pause=1000&color=D4A574&center=true&vCenter=true&width=900&height=45&lines=The+spice+must+flow+%E2%80%94+and+so+does+the+code.;Fear+is+the+mind-killer.+Ship+anyway.;He+who+controls+the+code+controls+the+universe.;Walk+without+rhythm+%E2%80%94+commit+without+end." alt="Dune quotes"/>
 </p>
 
----
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-stats.svg" width="100%" alt="Spice Harvested 12.4K · Commits This Cycle 527 · Sietches Built 15+ · Fremen Eyes ∞"/>
 
-### 🔨 Currently Working On
+> ### ⚔️ Now Forging
+> **Extensio.ai v2** — AI-powered Chrome extension generator from natural language prompts.
+> 15-feature / 4-phase roadmap in progress. [Enter the sietch →](https://github.com/vardhan23v/extension-AI)
 
-> **Extensio.ai v2** — AI-powered Chrome extension generator from natural language prompts.  
-> 15-feature / 4-phase roadmap in progress. [Check it out →](https://github.com/vardhan23v/extension-AI)
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
----
+## 📊 Spice Harvest Data
 
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg)](https://github.com/vardhan23v)
+<div align="center">
 
-## 🛠 Technologies & Projects
+<img src="https://github-readme-stats.vercel.app/api?username=vardhan23v&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=D4A574&icon_color=C2622D&text_color=E8DCC4&border_color=3D2312&hide_border=false&rank_icon=github" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vardhan23v&layout=compact&theme=dark&bg_color=0A0A0A&title_color=D4A574&text_color=E8DCC4&border_color=3D2312&hide_border=false" alt="Top Languages" height="165"/>
 
-<table border="0" cellspacing="10" cellpadding="0" width="100%">
-<tr>
+<img src="https://streak-stats.demolab.com?user=vardhan23v&theme=dark&background=0A0A0A&border=3D2312&ring=D4A574&fire=E8833A&currStreakNum=E8DCC4&sideNums=E8DCC4&currStreakLabel=D4A574&sideLabels=D4A574&dates=8a7a66" alt="GitHub Streak" height="170"/>
 
-<!-- LEFT: ABOUT ME -->
-<td width="300" valign="top" align="center">
-<h3>🧑‍💻 About Me</h3>
-<br>
-<div align="left" style="font-size: 14px;">
-<ul>
-  <li>🎓 <b>CS Student @ NMAMIT</b>, Nitte University</li>
-  <li>🚀 Exploring <b>AI, Web Development & Open Source</b></li>
-  <li>💡 I ship polished, production-ready projects — not tutorial clones</li>
-  <li>🏢 <b>Web Dev Intern @ Zetheta Algorithms</b></li>
-  <li>🌍 Based in <b>India</b></li>
-</ul>
 </div>
-</td>
 
-<!-- MIDDLE: TECH STACK -->
-<td width="300" valign="top" align="center">
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-<h3>🛠️ Tech Stack</h3>
-<br>
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,html,css,tailwind,python,mysql,postgresql,mongodb,prisma,git,github,vscode,vercel,vite&perline=5" alt="Tech Stack" />
+## 🛡️ Tech Still Suit
 
-</td>
+<div align="center">
 
-<!-- RIGHT: PROJECTS -->
-<td width="300" valign="top" align="center">
+<a href="https://github.com/vardhan23v?tab=repositories"><img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,typescript,js,express,python,mongodb,postgresql,mysql,prisma,docker,aws,git,tailwind,vercel,vite,vscode&perline=9" alt="Tech Stack"/></a>
 
-<h3>🔥 Top Projects</h3>
-<br>
-
-<div align="left" style="font-size: 14px;">
-<ul>
-  <li><a href="https://github.com/vardhan23v/extension-AI">✨ Extension AI</a> — <i>Flagship</i> · <a href="https://extension-ai-five.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/LoanEase-Multi-Step-Form">🏦 LoanEase</a> · <a href="https://pro1-pied.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/task-tracker-saas">⚡ Task Tracker SaaS</a> · <a href="https://task-tracker-rose-ten-60.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/campus-compass">🎓 Campus Compass</a> · <a href="https://campus-compass-fawn.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/career-forge-pro">💼 CareerForge Pro</a> · <a href="https://career-forge-pro-phi.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/codereviewer">🤖 AI Code Reviewer</a> · <a href="https://codereviewer-eta.vercel.app">Live ↗</a></li>
-  <li><a href="https://github.com/vardhan23v/Drivenest">🚗 Drive Nest</a></li>
-  <li><a href="https://github.com/vardhan23v/paradise">🎬 THE PARADISE</a></li>
-</ul>
 </div>
-<a href="https://github.com/vardhan23v?tab=repositories"><b>View all projects ➜</b></a>
 
-</td>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-</tr>
-</table>
+## 🏔️ Sietches — The Projects
 
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_circuit_pulse_bar.svg)](https://github.com/vardhan23v)
+| Sietch | Chronicle | Gates |
+|---|---|---|
+| ✨ **Extension AI** — *The Flagship Sietch* | AI-powered Chrome extension generator from natural language prompts. The Kwisatz Haderach of browser automation. | [Code](https://github.com/vardhan23v/extension-AI) · [Live ↗](https://extension-ai-five.vercel.app) |
+| 🏦 **LoanEase** — *Financial Stronghold* | Multi-step loan application form with smooth UX. The economic engine of the sietch. | [Code](https://github.com/vardhan23v/LoanEase-Multi-Step-Form) · [Live ↗](https://pro1-pied.vercel.app) |
+| ⚡ **Task Tracker SaaS** — *The Water Disciplinary* | Enterprise task management platform. Every drop of productivity counted. | [Code](https://github.com/vardhan23v/task-tracker-saas) · [Live ↗](https://task-tracker-rose-ten-60.vercel.app) |
+| 🎓 **Campus Compass** — *Navigation Aid* | Academic navigation and resource hub. Finding paths through the educational desert. | [Code](https://github.com/vardhan23v/campus-compass) · [Live ↗](https://campus-compass-fawn.vercel.app) |
+| 💼 **CareerForge Pro** — *The Swordmaster* | Career development and job matching platform. Forging the next generation of developers. | [Code](https://github.com/vardhan23v/career-forge-pro) · [Live ↗](https://career-forge-pro-phi.vercel.app) |
+| 🤖 **AI Code Reviewer** — *The Mentat* | Machine learning-powered code analysis. The thinking machine of the development world. | [Code](https://github.com/vardhan23v/codereviewer) · [Live ↗](https://codereviewer-eta.vercel.app) |
+| 🏏 **HPL Auction** — *The Great Houses Arena* | Real-time cricket auction platform with live bidding, purse management, and auctioneer controls. | [Code](https://github.com/vardhan23v/hpl-auction) · [Live ↗](https://hpl-web-production.up.railway.app) |
+| 🛒 **Apex Retail ERP** — *The Merchants' Guild* | Retail POS and inventory platform with barcode scanning, GST invoices, stock audits, and RBAC. | [Code](https://github.com/vardhan23v/inventory-management) |
+| 🧑‍💼 **Dayflow HRMS** — *The Administrative Sietch* | Employee directory, attendance, time off, payroll, and PDF payslips in one HR platform. | [Code](https://github.com/vardhan23v/Human-Resource-Management-System) |
+| 🎮 **Logic Link** — *The Puzzle Chamber* | A deterministic number-matching puzzle with solver validation and ten tuned difficulty levels. | [Code](https://github.com/vardhan23v/logic-link) |
+| 🌪️ **DisasterMind AI** — *The Storm Sietch* | Multi-agent AI emergency response platform with real-time disaster simulation, digital-twin mapping, and SOS triage. | [Code](https://github.com/vardhan23v/Disastermind-ai) |
+| 🗣️ **Vard AI** — *The Voice of the Desert* | Voice-first AI assistant with streaming chat, persistent memory, voice input, MCP tools, and Supabase auth. | [Code](https://github.com/vardhan23v/Vard-AI) |
+| 🚨 **PaySecure DR** — *The Shield Wall* | Multi-region disaster recovery platform for payments — RPO under 1 minute, RTO under 5. | [Code](https://github.com/vardhan23v/paysecure-dr) |
+| 🔔 **FinNotify** — *The Messenger Guild* | Event-driven financial notification engine with delivery tracking and dead-letter queues. | [Code](https://github.com/vardhan23v/financial-notifications) |
+| 📈 **PricePulse** — *The Market Oracle* | Smart price tracker and forecast assistant for Amazon and Flipkart with heuristic forecasting. | [Code](https://github.com/vardhan23v/pricepulse) |
+| 🚗 **DriveNest** — *The Caravansary* | Full-stack vehicle rental platform with an animated glass UI and MySQL backend. | [Code](https://github.com/vardhan23v/Drivenest) |
+| 🃏 **UNO Game** — *The Desert Cards* | Fully playable UNO card game in vanilla JS with a smart AI opponent. | [Code](https://github.com/vardhan23v/uno-game) |
+| 🎬 **THE PARADISE** — *The Cinematic Sietch* | Cinematic movie landing page with rain effects, particle animations, and glassmorphism. | [Code](https://github.com/vardhan23v/paradise) |
+| 🌿 **Greenzy** — *The Garden of Arrakis* | Farm-to-table green product marketplace built with pure HTML, CSS, and vanilla JS. | [Code](https://github.com/vardhan23v/Greenzy-main) |
+| 📚 **NoteVault** — *The Archive Sietch* | Interactive PDF reader and study hub for engineering students with a sleek dark UI. | [Code](https://github.com/vardhan23v/NoteVault) |
+| 📖 **Sem5 Learning Hub** — *The Library of Sietch* | Animated revision site with live SVG visualizations, automata simulators, and a CPU scheduler. | [Code](https://github.com/vardhan23v/sem5-learning-hub) |
+| 🧪 **PromptLab Sprint** — *The Lab of Ideas* | Turn feature ideas into implementation plans with AI-generated task boards and tracking. | [Code](https://github.com/vardhan23v/promptlab-sprint) |
+| 🏗️ **Capstone Skeleton** — *The Foundation* | Production-ready Next.js App Router starter with TypeScript, Tailwind, and Vercel deployment. | [Code](https://github.com/vardhan23v/capstone-skeleton) |
 
-### 📊 Vital Statistics
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/vardhan23v">
-    <img src="https://streak-stats.demolab.com?user=vardhan23v&theme=radical&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" alt="GitHub Streak" height="170"/>
-  </a>
-</p>
+**[🔍 Explore all sietches →](https://github.com/vardhan23v?tab=repositories)**
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/6C63FF/vardhan23v" width="95%" alt="Contribution Graph"/>
-</p>
+</div>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
-</p>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
+## 🐛 The Sandworm Path
 
-## 🤝 Collaboration
+*Each grain a commit, each ripple a contribution.*
 
-I'm open to collaborating on:
+<img src="https://ghchart.rshah.org/C2622D/vardhan23v" width="100%" alt="Contribution Graph"/>
 
-<ul>
-  <li>Full-stack Web Applications</li>
-  <li>AI-integrated SaaS Tools</li>
-  <li>Open Source Projects</li>
-  <li>Hackathons & Competitions</li>
-</ul>
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-spice.svg" width="100%" alt="Contribution Snake"/>
 
-[![divider](https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/bars/divider_dual_energy_tracks.svg)](https://github.com/vardhan23v)
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,24,30&height=100&section=footer" width="100%" alt="Footer"/>
-</p>
+## 🤝 Fremen Network
+
+*Open to joining forces for worthy causes:*
+
+`🌐 Full-Stack Applications` · `🤖 AI-Integrated SaaS` · `🔓 Open Source` · `🏆 Hackathons` · `🚀 Startup Ventures` · `📚 Developer Education`
+
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-footer.svg" width="100%" alt="May thy knife chip and shatter"/>
