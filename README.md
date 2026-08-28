@@ -703,6 +703,47 @@
         <a href="https://codereviewer-eta.vercel.app" class="sietch-link">Live ↗</a>
       </div>
     </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🏏 HPL Auction — The Great Houses Arena</h3>
+        <p>Real-time cricket auction platform with live bidding, purse management, and auctioneer controls.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/hpl-auction" class="sietch-link">Code</a>
+        <a href="https://hpl-web-production.up.railway.app" class="sietch-link">Live ↗</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🛒 Apex Retail ERP — The Merchants' Guild</h3>
+        <p>Retail POS and inventory platform with barcode scanning, GST invoices, stock audits, and RBAC.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/inventory-management" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🧑‍💼 Dayflow HRMS — The Administrative Sietch</h3>
+        <p>Employee directory, attendance, time off, payroll, and PDF payslips in one HR platform.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/Human-Resource-Management-System" class="sietch-link">Code</a>
+      </div>
+    </div>
+
+    <div class="sietch-card">
+      <div class="sietch-info">
+        <h3>🎮 Logic Link — The Puzzle Chamber</h3>
+        <p>A deterministic number-matching puzzle with solver validation and ten tuned difficulty levels.</p>
+      </div>
+      <div class="sietch-links">
+        <a href="https://github.com/vardhan23v/logic-link" class="sietch-link">Code</a>
+      </div>
+    </div>
     
     <div style="text-align: center; margin-top: 20px;">
       <a href="https://github.com/vardhan23v?tab=repositories" style="color: var(--fremen-blue); font-size: 1rem;">
