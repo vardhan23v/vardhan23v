@@ -1,26 +1,26 @@
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-header.svg" width="100%" alt="Sree Vardhan V — Full-Stack Developer, AI Builder"/>
 
 <p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-D4A574?style=for-the-badge&logo=vercel&logoColor=0A0A0A" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LINKEDIN-C2622D?style=for-the-badge&logo=linkedin&logoColor=E8DCC4" alt="LinkedIn"/></a>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-vardhan--v--portfilo.vercel.app-D4A574?style=for-the-badge&logo=vercel&logoColor=D4A574&labelColor=120a06" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LINKEDIN-in%2Fvardhan--v23-D4A574?style=for-the-badge&logo=linkedin&logoColor=D4A574&labelColor=120a06" alt="LinkedIn"/></a>
 </p>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-## 📊 Spice Harvest Data
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-harvest.svg" width="100%" alt="Spice Harvest Data"/>
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-github-stats.svg" alt="GitHub Stats" height="165"/>
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-langs.svg" alt="Top Languages" height="165"/>
 
-<img src="https://streak-stats.demolab.com?user=vardhan23v&theme=dark&background=0A0A0A&border=3D2312&ring=D4A574&fire=E8833A&currStreakNum=E8DCC4&sideNums=E8DCC4&currStreakLabel=D4A574&sideLabels=D4A574&dates=8a7a66" alt="GitHub Streak" height="170"/>
+<img src="https://streak-stats.demolab.com?user=vardhan23v&theme=dark&background=0A0A0A&border=3D2312&ring=D4A574&fire=E8833A&currStreakNum=E8DCC4&sideNums=E8DCC4&currStreakLabel=D4A574&sideLabels=D4A574&dates=8a7a66&border_radius=12" alt="GitHub Streak" height="165"/>
 
 </div>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-## 🛡️ Tech Still Suit
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-stillsuit.svg" width="100%" alt="Tech Still Suit"/>
 
 <div align="center">
 
@@ -54,7 +54,7 @@
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-## 🏔️ Sietches — The Projects
+<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-sietches.svg" width="100%" alt="Sietches — The Projects"/>
 
 <details>
 <summary><b>⚔️ More experiments &amp; creative builds — open the archives</b></summary>

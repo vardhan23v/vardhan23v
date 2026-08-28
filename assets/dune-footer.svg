@@ -22,7 +22,7 @@
     <filter id="df-blur4" x="-60%" y="-160%" width="220%" height="420%">
       <feGaussianBlur stdDeviation="4"/>
     </filter>
-  </defs>
+  <linearGradient id="df-rl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D4A574" stop-opacity="0"/><stop offset="1" stop-color="#D4A574" stop-opacity="0.7"/></linearGradient><linearGradient id="df-rr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D4A574" stop-opacity="0.7"/><stop offset="1" stop-color="#D4A574" stop-opacity="0"/></linearGradient></defs>
   <style>
     .df-breathe{animation:df-breathe 7s ease-in-out infinite alternate}
     @keyframes df-breathe{from{opacity:.4}to{opacity:.8}}
@@ -44,7 +44,7 @@
     .df-p2{animation-duration:14s;animation-delay:-9s}
     .df-p3{animation-duration:12.5s;animation-delay:-6s}
     .df-p4{animation-duration:10s;animation-delay:-1s}
-  </style>
+  .df-orn{opacity:0;animation:df-fadein 1.5s ease-out .3s forwards}</style>
   <g clip-path="url(#df-clip)">
     <rect width="1200" height="170" fill="#0A0A0A"/>
     <rect width="1200" height="170" fill="url(#df-sky)"/>
@@ -62,7 +62,7 @@
 
     <ellipse cx="600" cy="116" rx="240" ry="22" fill="#C2622D" filter="url(#df-blur8)" class="df-band"/>
     <circle cx="600" cy="118" r="30" fill="#C2622D" filter="url(#df-blur8)" class="df-breathe"/>
-    <circle cx="600" cy="118" r="34" fill="url(#df-sun)"/>
+    <circle cx="600" cy="118" r="34" fill="url(#df-sun)"/><g class="df-orn"><rect x="440" y="57.4" width="132" height="1.2" fill="url(#df-rl)"/><rect x="628" y="57.4" width="132" height="1.2" fill="url(#df-rr)"/><rect x="595.5" y="53.5" width="9" height="9" transform="rotate(45 600 58)" fill="#D4A574"/><rect x="595.5" y="53.5" width="9" height="9" transform="rotate(45 600 58)" fill="#C2622D" filter="url(#df-blur4)" opacity="0.7" class="df-breathe"/></g>
 
     <path d="M-40 170 L-40 126 C60 112, 150 134, 280 124 S470 104, 600 118 S830 134, 960 120 S1150 108, 1240 122 L1240 170 Z" fill="#1c1008"/>
     <g class="df-drift">
