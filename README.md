@@ -85,7 +85,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vardhan23v&theme=react-dark&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF" width="95%" alt="Contribution Graph"/>
+  <img src="https://ghchart.rshah.org/6C63FF/vardhan23v" width="95%" alt="Contribution Graph"/>
 </p>
 
 <p align="center">
