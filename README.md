@@ -98,6 +98,4 @@
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/output/github-contribution-grid-snake-spice.svg" width="100%" alt="Contribution Snake"/>
-
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-footer.svg" width="100%" alt=""/>
