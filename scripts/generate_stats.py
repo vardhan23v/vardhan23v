@@ -128,7 +128,7 @@ def stats_card(u):
         CARD_HEAD,
         panel(W, H),
         '<g class="in">',
-        title(28, 38, "SPICE HARVEST DATA"),
+        title(28, 38, "HARVEST LEDGER"),
         diamond(418, 33, 8),
         # hero: contributions this cycle
         f'<text x="28" y="112" font-family="{VAL_FONT}" font-weight="bold" '

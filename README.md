@@ -1,8 +1,9 @@
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-header.svg" width="100%" alt="Sree Vardhan V — Full-Stack Developer, AI Builder"/>
 
 <p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-vardhan--v--portfilo.vercel.app-D4A574?style=for-the-badge&logo=vercel&logoColor=D4A574&labelColor=120a06" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LINKEDIN-in%2Fvardhan--v23-D4A574?style=for-the-badge&logo=linkedin&logoColor=D4A574&labelColor=120a06" alt="LinkedIn"/></a>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/chip-portfolio.svg" height="40" alt="Portfolio: vardhan-v-portfilo.vercel.app"/></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/chip-linkedin.svg" height="40" alt="LinkedIn: in/vardhan-v23"/></a>
 </p>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
@@ -27,7 +28,7 @@
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-sietches.svg" width="100%" alt="Sietches — The Projects"/>
 
 <details>
-<summary><b>⚔️ 26 sietches — products, AI tools, games &amp; study hubs — open the archives</b></summary>
+<summary><b>⚔️&ensp;26 sietches — products, AI tools, games &amp; study hubs — open the archives</b></summary>
 <br/>
 
 | Artifact | Description | Stack |
