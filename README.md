@@ -14,8 +14,6 @@
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-github-stats.svg" alt="GitHub Stats" height="165"/>
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-langs.svg" alt="Top Languages" height="165"/>
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-streak.svg" alt="GitHub Streak" height="165"/>
-
 </div>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
