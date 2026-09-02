@@ -145,16 +145,15 @@ def build():
         '<feGaussianBlur stdDeviation="8"/></filter>',
         '</defs>',
         '<style>',
-        '.in{opacity:0;animation:in .8s ease-out .15s forwards}',
+        '.in{animation:in .8s ease-out .15s both}',
         '@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}',
         '.em{animation:br 6s ease-in-out infinite alternate}',
         '@keyframes br{from{opacity:.14}to{opacity:.38}}',
-        '.pill{opacity:0;animation:up .8s cubic-bezier(.16,1,.3,1) forwards}',
+        '.pill{animation:up .8s cubic-bezier(.16,1,.3,1) both}',
         '@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}',
         '.head{animation:pulse 4s ease-in-out infinite}',
         '@keyframes pulse{0%,100%{opacity:.78}50%{opacity:1}}',
-        '@media (prefers-reduced-motion:reduce){.in,.pill{animation:none;opacity:1}'
-        '.em,.head{animation:none}}',
+        '@media (prefers-reduced-motion:reduce){.in,.pill,.em,.head{animation:none}}',
         '</style>',
         # panel (same construction as the stat cards)
         f'<rect class="em" x="6" y="6" width="{W - 12}" height="{H - 12}" rx="14" fill="{EMBER}" filter="url(#ember)"/>',
@@ -164,9 +163,9 @@ def build():
         # title row, matching the stat cards
         f'<text x="28" y="38" font-family="{LBL_FONT}" font-size="13" letter-spacing="3" fill="{GOLD}">FREMEN SURVIVAL GEAR</text>',
         f'<rect x="28" y="46" width="120" height="1" fill="{GOLD}" opacity="0.35"/>',
-        f'<text x="{W - 28}" y="38" text-anchor="end" font-family="{LBL_FONT}" font-size="9" '
+        f'<text x="{W - 52}" y="38" text-anchor="end" font-family="{LBL_FONT}" font-size="9" '
         f'letter-spacing="2.5" fill="{GOLD}" opacity="0.6">EVERY TOOL A FREMEN NEEDS TO CROSS THE DESERT</text>',
-        f'<rect x="{W - 42}" y="29" width="8" height="8" transform="rotate(45 {W - 38} 33)" fill="{GOLD}" opacity="0"/>',
+        f'<rect x="{W - 42}" y="29" width="8" height="8" transform="rotate(45 {W - 38} 33)" fill="{GOLD}"/>',
         *els,
         '</g>',
         *[p.replace('values="H;', f'values="{H};') for p in particles()],

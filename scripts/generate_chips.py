@@ -51,9 +51,9 @@ def chip(label, value, aria):
         '<stop offset="0" stop-color="#1a1109"/><stop offset="1" stop-color="#0A0A0A"/>',
         '</linearGradient></defs>',
         '<style>',
-        '.in{opacity:0;animation:in .7s ease-out .1s forwards}',
+        '.in{animation:in .7s ease-out .1s both}',
         '@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}',
-        '@media (prefers-reduced-motion:reduce){.in{animation:none;opacity:1}}',
+        '@media (prefers-reduced-motion:reduce){.in{animation:none}}',
         '</style>',
         f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="{(H - 1) / 2}" fill="url(#bg)" '
         f'stroke="{GOLD}" stroke-opacity="0.6">'
