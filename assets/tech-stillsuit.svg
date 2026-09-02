@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="608" viewBox="0 0 1200 608" role="img" aria-label="Tech stack — the still suit">
+<defs>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0A0A0A"/><stop offset="0.5" stop-color="#1a0f05"/><stop offset="1" stop-color="#0A0A0A"/>
+</linearGradient>
+<linearGradient id="lineg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#D4A574" stop-opacity="0.8"/><stop offset="1" stop-color="#D4A574" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="sweepg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#D4A574" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#F6E7C8" stop-opacity="0.07"/>
+<stop offset="1" stop-color="#D4A574" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="duneglow" cx="0.5" cy="1" r="1">
+<stop offset="0" stop-color="#C2622D" stop-opacity="0.22"/><stop offset="1" stop-color="#C2622D" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<style>
+text{font-family:'Space Mono','Courier New',monospace}
+.cathead{font-size:15px;font-weight:700;letter-spacing:5px;fill:#D4A574;animation:glowpulse 4s ease-in-out infinite}
+.pilltext{font-size:14px;fill:#E8DCC4}
+.fadeup{opacity:0;animation-name:fadeup;animation-duration:0.9s;animation-timing-function:cubic-bezier(0.16,1,0.3,1);animation-fill-mode:forwards}
+.pill:hover rect{fill:#D4A574}
+@keyframes fadeup{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes glowpulse{0%,100%{opacity:0.75}50%{opacity:1}}
+@keyframes sweep{0%{transform:translateX(-1200px)}100%{transform:translateX(1200px)}}
+.sweep{animation:sweep 7s linear 1.5s infinite}
+</style>
+<rect width="1200" height="608" fill="url(#bgg)" rx="14"/>
+<rect width="1200" height="608" fill="url(#duneglow)" rx="14"/>
+<rect x="0.5" y="0.5" width="1199" height="607" rx="14" fill="none" stroke="#D4A574" stroke-opacity="0.35"/>
+<g><circle cx="396" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.9s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.68;0.27;0" dur="10.9s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="cx" values="396;347" dur="10.9s" begin="1.2s" repeatCount="indefinite"/></circle><circle cx="696" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="8.3s" begin="7.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.52;0.21;0" dur="8.3s" begin="7.3s" repeatCount="indefinite"/><animate attributeName="cx" values="696;644" dur="8.3s" begin="7.3s" repeatCount="indefinite"/></circle><circle cx="125" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="12.0s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.73;0.29;0" dur="12.0s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="cx" values="125;141" dur="12.0s" begin="3.4s" repeatCount="indefinite"/></circle><circle cx="696" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.74;0.30;0" dur="10.5s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="cx" values="696;642" dur="10.5s" begin="0.5s" repeatCount="indefinite"/></circle><circle cx="1016" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="7.9s" begin="2.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.58;0.23;0" dur="7.9s" begin="2.3s" repeatCount="indefinite"/><animate attributeName="cx" values="1016;1023" dur="7.9s" begin="2.3s" repeatCount="indefinite"/></circle><circle cx="811" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.4s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.50;0.20;0" dur="10.4s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="811;817" dur="10.4s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="93" cy="0" r="2.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="8.2s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.56;0.23;0" dur="8.2s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="cx" values="93;126" dur="8.2s" begin="0.5s" repeatCount="indefinite"/></circle><circle cx="560" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="9.2s" begin="7.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.67;0.27;0" dur="9.2s" begin="7.4s" repeatCount="indefinite"/><animate attributeName="cx" values="560;584" dur="9.2s" begin="7.4s" repeatCount="indefinite"/></circle><circle cx="303" cy="0" r="2" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.2s" begin="4.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.64;0.26;0" dur="10.2s" begin="4.6s" repeatCount="indefinite"/><animate attributeName="cx" values="303;278" dur="10.2s" begin="4.6s" repeatCount="indefinite"/></circle><circle cx="1157" cy="0" r="2" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="9.5s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.41;0.16;0" dur="9.5s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="cx" values="1157;1156" dur="9.5s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="65" cy="0" r="2.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="11.6s" begin="5.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.67;0.27;0" dur="11.6s" begin="5.3s" repeatCount="indefinite"/><animate attributeName="cx" values="65;104" dur="11.6s" begin="5.3s" repeatCount="indefinite"/></circle><circle cx="415" cy="0" r="2" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.0s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.38;0.15;0" dur="10.0s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="cx" values="415;366" dur="10.0s" begin="2.8s" repeatCount="indefinite"/></circle><circle cx="333" cy="0" r="2.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="7.4s" begin="5.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.63;0.25;0" dur="7.4s" begin="5.6s" repeatCount="indefinite"/><animate attributeName="cx" values="333;351" dur="7.4s" begin="5.6s" repeatCount="indefinite"/></circle><circle cx="1172" cy="0" r="2" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="8.7s" begin="6.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.70;0.28;0" dur="8.7s" begin="6.6s" repeatCount="indefinite"/><animate attributeName="cx" values="1172;1154" dur="8.7s" begin="6.6s" repeatCount="indefinite"/></circle><circle cx="1111" cy="0" r="2" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.7s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.37;0.15;0" dur="10.7s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="cx" values="1111;1143" dur="10.7s" begin="2.8s" repeatCount="indefinite"/></circle><circle cx="170" cy="0" r="2" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="9.3s" begin="2.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.38;0.15;0" dur="9.3s" begin="2.0s" repeatCount="indefinite"/><animate attributeName="cx" values="170;164" dur="9.3s" begin="2.0s" repeatCount="indefinite"/></circle><circle cx="657" cy="0" r="2.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="11.9s" begin="7.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.46;0.18;0" dur="11.9s" begin="7.1s" repeatCount="indefinite"/><animate attributeName="cx" values="657;647" dur="11.9s" begin="7.1s" repeatCount="indefinite"/></circle><circle cx="436" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="12.7s" begin="7.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.38;0.15;0" dur="12.7s" begin="7.1s" repeatCount="indefinite"/><animate attributeName="cx" values="436;394" dur="12.7s" begin="7.1s" repeatCount="indefinite"/></circle><circle cx="784" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="12.0s" begin="0.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.46;0.18;0" dur="12.0s" begin="0.1s" repeatCount="indefinite"/><animate attributeName="cx" values="784;724" dur="12.0s" begin="0.1s" repeatCount="indefinite"/></circle><circle cx="506" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.4s" begin="3.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.63;0.25;0" dur="10.4s" begin="3.0s" repeatCount="indefinite"/><animate attributeName="cx" values="506;508" dur="10.4s" begin="3.0s" repeatCount="indefinite"/></circle><circle cx="736" cy="0" r="2.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="7.3s" begin="5.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.67;0.27;0" dur="7.3s" begin="5.4s" repeatCount="indefinite"/><animate attributeName="cx" values="736;723" dur="7.3s" begin="5.4s" repeatCount="indefinite"/></circle><circle cx="483" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.8s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.43;0.17;0" dur="10.8s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="cx" values="483;541" dur="10.8s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="531" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="10.6s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.35;0.14;0" dur="10.6s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="cx" values="531;489" dur="10.6s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="138" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="7.2s" begin="2.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.60;0.24;0" dur="7.2s" begin="2.9s" repeatCount="indefinite"/><animate attributeName="cx" values="138;96" dur="7.2s" begin="2.9s" repeatCount="indefinite"/></circle><circle cx="313" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="9.2s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.40;0.16;0" dur="9.2s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="cx" values="313;311" dur="9.2s" begin="2.8s" repeatCount="indefinite"/></circle><circle cx="1154" cy="0" r="1.5" fill="#D4A574" opacity="0"><animate attributeName="cy" values="608;-20" dur="8.9s" begin="3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.39;0.16;0" dur="8.9s" begin="3.8s" repeatCount="indefinite"/><animate attributeName="cx" values="1154;1135" dur="8.9s" begin="3.8s" repeatCount="indefinite"/></circle></g>
+<text x="1140" y="34" text-anchor="end" style="font-size:10px;letter-spacing:4px" fill="#C2622D" opacity="0.7">FREMEN SURVIVAL GEAR</text>
+<text x="60" y="36" style="font-size:11px;letter-spacing:3px" fill="#E8DCC4" opacity="0.55">EVERY TOOL A FREMEN NEEDS TO SURVIVE THE DESERT OF MODERN DEVELOPMENT</text>
+<g class="fadeup" style="animation-delay:0.30s">
+<text x="60" y="70" class="cathead">◈&#160;&#160;LANGUAGES</text>
+<rect x="60" y="80" width="1080" height="1" fill="url(#lineg)" opacity="0.5"/>
+</g><g class="fadeup pill" style="animation-delay:0.42s">
+<rect x="60" y="102" width="116" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="0.4s" repeatCount="indefinite"/>
+</rect>
+<text x="118" y="124.0" class="pilltext" text-anchor="middle">TypeScript</text>
+</g><g class="fadeup pill" style="animation-delay:0.48s">
+<rect x="188" y="102" width="116" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+</rect>
+<text x="246" y="124.0" class="pilltext" text-anchor="middle">JavaScript</text>
+</g><g class="fadeup pill" style="animation-delay:0.54s">
+<rect x="316" y="102" width="82" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+</rect>
+<text x="357" y="124.0" class="pilltext" text-anchor="middle">Python</text>
+</g><g class="fadeup pill" style="animation-delay:0.60s">
+<rect x="410" y="102" width="66" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+</rect>
+<text x="443" y="124.0" class="pilltext" text-anchor="middle">HTML</text>
+</g><g class="fadeup pill" style="animation-delay:0.66s">
+<rect x="488" y="102" width="57" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="0.7s" repeatCount="indefinite"/>
+</rect>
+<text x="517" y="124.0" class="pilltext" text-anchor="middle">CSS</text>
+</g><g class="fadeup pill" style="animation-delay:0.72s">
+<rect x="557" y="102" width="57" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="0.7s" repeatCount="indefinite"/>
+</rect>
+<text x="586" y="124.0" class="pilltext" text-anchor="middle">SQL</text>
+</g><g class="fadeup" style="animation-delay:0.78s">
+<text x="60" y="162" class="cathead">⚔&#160;&#160;FRAMEWORKS</text>
+<rect x="60" y="172" width="1080" height="1" fill="url(#lineg)" opacity="0.5"/>
+</g><g class="fadeup pill" style="animation-delay:0.90s">
+<rect x="60" y="194" width="74" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="1.9s" repeatCount="indefinite"/>
+</rect>
+<text x="97" y="216.0" class="pilltext" text-anchor="middle">React</text>
+</g><g class="fadeup pill" style="animation-delay:0.96s">
+<rect x="146" y="194" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.0s" repeatCount="indefinite"/>
+</rect>
+<text x="191" y="216.0" class="pilltext" text-anchor="middle">Next.js</text>
+</g><g class="fadeup pill" style="animation-delay:1.02s">
+<rect x="249" y="194" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.0s" repeatCount="indefinite"/>
+</rect>
+<text x="294" y="216.0" class="pilltext" text-anchor="middle">Node.js</text>
+</g><g class="fadeup pill" style="animation-delay:1.08s">
+<rect x="352" y="194" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.1s" repeatCount="indefinite"/>
+</rect>
+<text x="397" y="216.0" class="pilltext" text-anchor="middle">Express</text>
+</g><g class="fadeup pill" style="animation-delay:1.14s">
+<rect x="454" y="194" width="99" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.1s" repeatCount="indefinite"/>
+</rect>
+<text x="504" y="216.0" class="pilltext" text-anchor="middle">Tailwind</text>
+</g><g class="fadeup pill" style="animation-delay:1.20s">
+<rect x="566" y="194" width="66" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.2s" repeatCount="indefinite"/>
+</rect>
+<text x="598" y="216.0" class="pilltext" text-anchor="middle">Vite</text>
+</g><g class="fadeup pill" style="animation-delay:1.26s">
+<rect x="643" y="194" width="82" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.3s" repeatCount="indefinite"/>
+</rect>
+<text x="684" y="216.0" class="pilltext" text-anchor="middle">Vitest</text>
+</g><g class="fadeup pill" style="animation-delay:1.32s">
+<rect x="738" y="194" width="66" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.3s" repeatCount="indefinite"/>
+</rect>
+<text x="770" y="216.0" class="pilltext" text-anchor="middle">Jest</text>
+</g><g class="fadeup pill" style="animation-delay:1.38s">
+<rect x="815" y="194" width="82" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+</rect>
+<text x="856" y="216.0" class="pilltext" text-anchor="middle">Prisma</text>
+</g><g class="fadeup pill" style="animation-delay:1.44s">
+<rect x="910" y="194" width="108" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+</rect>
+<text x="963" y="216.0" class="pilltext" text-anchor="middle">Socket.IO</text>
+</g><g class="fadeup pill" style="animation-delay:1.50s">
+<rect x="1029" y="194" width="99" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.5s" repeatCount="indefinite"/>
+</rect>
+<text x="1079" y="216.0" class="pilltext" text-anchor="middle">NextAuth</text>
+</g><g class="fadeup pill" style="animation-delay:1.56s">
+<rect x="60" y="242" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="2.6s" repeatCount="indefinite"/>
+</rect>
+<text x="105" y="264.0" class="pilltext" text-anchor="middle">Zustand</text>
+</g><g class="fadeup" style="animation-delay:1.62s">
+<text x="60" y="302" class="cathead">☵&#160;&#160;DATA &amp; CLOUD</text>
+<rect x="60" y="312" width="1080" height="1" fill="url(#lineg)" opacity="0.5"/>
+</g><g class="fadeup pill" style="animation-delay:1.74s">
+<rect x="60" y="334" width="116" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="3.7s" repeatCount="indefinite"/>
+</rect>
+<text x="118" y="356.0" class="pilltext" text-anchor="middle">PostgreSQL</text>
+</g><g class="fadeup pill" style="animation-delay:1.80s">
+<rect x="188" y="334" width="99" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="3.8s" repeatCount="indefinite"/>
+</rect>
+<text x="238" y="356.0" class="pilltext" text-anchor="middle">Supabase</text>
+</g><g class="fadeup pill" style="animation-delay:1.86s">
+<rect x="299" y="334" width="74" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="3.9s" repeatCount="indefinite"/>
+</rect>
+<text x="336" y="356.0" class="pilltext" text-anchor="middle">Redis</text>
+</g><g class="fadeup pill" style="animation-delay:1.92s">
+<rect x="385" y="334" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="3.9s" repeatCount="indefinite"/>
+</rect>
+<text x="431" y="356.0" class="pilltext" text-anchor="middle">MongoDB</text>
+</g><g class="fadeup pill" style="animation-delay:1.98s">
+<rect x="488" y="334" width="74" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="4.0s" repeatCount="indefinite"/>
+</rect>
+<text x="525" y="356.0" class="pilltext" text-anchor="middle">MySQL</text>
+</g><g class="fadeup pill" style="animation-delay:2.04s">
+<rect x="574" y="334" width="57" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="4.0s" repeatCount="indefinite"/>
+</rect>
+<text x="603" y="356.0" class="pilltext" text-anchor="middle">AWS</text>
+</g><g class="fadeup pill" style="animation-delay:2.10s">
+<rect x="643" y="334" width="82" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="4.1s" repeatCount="indefinite"/>
+</rect>
+<text x="684" y="356.0" class="pilltext" text-anchor="middle">Vercel</text>
+</g><g class="fadeup pill" style="animation-delay:2.16s">
+<rect x="738" y="334" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="4.2s" repeatCount="indefinite"/>
+</rect>
+<text x="783" y="356.0" class="pilltext" text-anchor="middle">Railway</text>
+</g><g class="fadeup pill" style="animation-delay:2.22s">
+<rect x="840" y="334" width="116" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="4.2s" repeatCount="indefinite"/>
+</rect>
+<text x="898" y="356.0" class="pilltext" text-anchor="middle">Cloudinary</text>
+</g><g class="fadeup" style="animation-delay:2.28s">
+<text x="60" y="394" class="cathead">👁&#160;&#160;AI / LLM</text>
+<rect x="60" y="404" width="1080" height="1" fill="url(#lineg)" opacity="0.5"/>
+</g><g class="fadeup pill" style="animation-delay:2.40s">
+<rect x="60" y="426" width="166" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="5.4s" repeatCount="indefinite"/>
+</rect>
+<text x="143" y="448.0" class="pilltext" text-anchor="middle">Groq · Llama 3.3</text>
+</g><g class="fadeup pill" style="animation-delay:2.46s">
+<rect x="238" y="426" width="166" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="5.5s" repeatCount="indefinite"/>
+</rect>
+<text x="322" y="448.0" class="pilltext" text-anchor="middle">Gemini 2.0 Flash</text>
+</g><g class="fadeup pill" style="animation-delay:2.52s">
+<rect x="417" y="426" width="124" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="5.5s" repeatCount="indefinite"/>
+</rect>
+<text x="479" y="448.0" class="pilltext" text-anchor="middle">GPT-4o Mini</text>
+</g><g class="fadeup pill" style="animation-delay:2.58s">
+<rect x="553" y="426" width="133" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="5.6s" repeatCount="indefinite"/>
+</rect>
+<text x="620" y="448.0" class="pilltext" text-anchor="middle">MCP Protocol</text>
+</g><g class="fadeup pill" style="animation-delay:2.64s">
+<rect x="698" y="426" width="116" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="5.6s" repeatCount="indefinite"/>
+</rect>
+<text x="756" y="448.0" class="pilltext" text-anchor="middle">Claude API</text>
+</g><g class="fadeup" style="animation-delay:2.70s">
+<text x="60" y="486" class="cathead">⚙&#160;&#160;TOOLS</text>
+<rect x="60" y="496" width="1080" height="1" fill="url(#lineg)" opacity="0.5"/>
+</g><g class="fadeup pill" style="animation-delay:2.82s">
+<rect x="60" y="518" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="6.8s" repeatCount="indefinite"/>
+</rect>
+<text x="105" y="540.0" class="pilltext" text-anchor="middle">VS Code</text>
+</g><g class="fadeup pill" style="animation-delay:2.88s">
+<rect x="163" y="518" width="57" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="6.9s" repeatCount="indefinite"/>
+</rect>
+<text x="191" y="540.0" class="pilltext" text-anchor="middle">Git</text>
+</g><g class="fadeup pill" style="animation-delay:2.94s">
+<rect x="232" y="518" width="82" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="6.9s" repeatCount="indefinite"/>
+</rect>
+<text x="273" y="540.0" class="pilltext" text-anchor="middle">GitHub</text>
+</g><g class="fadeup pill" style="animation-delay:3.00s">
+<rect x="326" y="518" width="74" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="7.0s" repeatCount="indefinite"/>
+</rect>
+<text x="363" y="540.0" class="pilltext" text-anchor="middle">Linux</text>
+</g><g class="fadeup pill" style="animation-delay:3.06s">
+<rect x="412" y="518" width="82" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="7.1s" repeatCount="indefinite"/>
+</rect>
+<text x="454" y="540.0" class="pilltext" text-anchor="middle">Docker</text>
+</g><g class="fadeup pill" style="animation-delay:3.12s">
+<rect x="507" y="518" width="74" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="7.1s" repeatCount="indefinite"/>
+</rect>
+<text x="544" y="540.0" class="pilltext" text-anchor="middle">Figma</text>
+</g><g class="fadeup pill" style="animation-delay:3.18s">
+<rect x="593" y="518" width="91" height="34" rx="17" fill="#160d06" stroke="#D4A574" stroke-width="1" opacity="0.95">
+<animate attributeName="stroke" values="#D4A574;#C2622D;#00B4D8;#D4A574" dur="9s" begin="7.2s" repeatCount="indefinite"/>
+</rect>
+<text x="638" y="540.0" class="pilltext" text-anchor="middle">Postman</text>
+</g>
+<rect class="sweep" x="0" y="0" width="1200" height="608" fill="url(#sweepg)"/>
+</svg>
