@@ -24,7 +24,7 @@ SECTIONS = [
                          "Vitest", "Jest", "Playwright"]),
     ("☵", "DATA & CLOUD", ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Redis", "Kafka",
                            "RabbitMQ", "AWS", "Vercel", "Railway", "Cloudinary"]),
-    ("👁", "AI / LLM", ["Groq · Llama 3.3", "Gemini 2.0 Flash", "GPT-4o Mini", "Claude API",
+    ("👁", "AI / LLM", ["Groq · Llama 3.3", "Gemini 2.0 Flash", "GPT-4o Mini",
                        "MCP Protocol"]),
     ("⚙", "TOOLS", ["VS Code", "Git", "GitHub", "Linux", "Docker", "Figma", "Postman"]),
 ]
