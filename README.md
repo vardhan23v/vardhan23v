@@ -23,7 +23,5 @@
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/tech-stillsuit.svg" width="100%" alt="Tech stack — Languages, Frameworks, Data &amp; Cloud, AI / LLM, Tools"/>
 
-**Current tech still-suit** — React 19 · TypeScript 6 · Tailwind 4 · TanStack Start · Next.js 16 · Express 5 · Prisma 7 · PostgreSQL (Neon) · Supabase · Zustand 5 · Zod 4 · Socket.IO 4 · Monaco Editor · Recharts · Vercel · Railway · GitHub Pages
-
 
 
