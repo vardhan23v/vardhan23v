@@ -22,6 +22,3 @@
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-stillsuit.svg" width="100%" alt="Tech Still Suit"/>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/tech-stillsuit.svg" width="100%" alt="Tech stack — Languages, Frameworks, Data &amp; Cloud, AI / LLM, Tools"/>
-
-
-
