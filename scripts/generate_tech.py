@@ -18,15 +18,18 @@ LBL_FONT = "Copperplate, 'Trajan Pro', Georgia, serif"
 VAL_FONT = "Georgia, 'Times New Roman', serif"
 
 SECTIONS = [
-    ("◈", "LANGUAGES", ["TypeScript", "JavaScript", "Python", "HTML", "CSS", "SQL"]),
+    ("◈", "LANGUAGES", ["TypeScript", "JavaScript", "Python", "Java", "Swift", "HTML", "CSS", "SQL"]),
     ("⚔", "FRAMEWORKS", ["React", "Next.js", "TanStack Start", "Node.js", "Express", "Tailwind",
-                         "Vite", "Prisma", "Socket.IO", "NextAuth", "Zustand", "Zod",
+                         "Vite", "Prisma", "Sequelize", "Socket.IO", "NextAuth", "Zustand", "Zod",
+                         "GSAP", "React Router",
                          "Vitest", "Jest", "Playwright"]),
     ("☵", "DATA & CLOUD", ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Redis", "Kafka",
-                           "RabbitMQ", "AWS", "Vercel", "Railway", "Cloudinary"]),
-    ("👁", "AI / LLM", ["Groq · Llama 3.3", "Gemini 2.0 Flash", "GPT-4o Mini",
-                       "MCP Protocol"]),
-    ("⚙", "TOOLS", ["VS Code", "Git", "GitHub", "Linux", "Docker", "Figma", "Postman"]),
+                           "RabbitMQ", "Neon", "AWS", "Vercel", "Railway", "Render",
+                           "GitHub Pages"]),
+    ("👁", "AI / LLM", ["Groq · Llama 3.3", "Gemini 2.0 Flash", "OpenAI",
+                       "MCP Protocol", "CrewAI", "FastMCP", "Jupyter"]),
+    ("⚙", "TOOLS", ["VS Code", "Git", "GitHub", "Linux", "Docker", "Figma", "Postman",
+                    "Maven", "Xcode"]),
 ]
 
 W = 920
