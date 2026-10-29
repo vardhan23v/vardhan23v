@@ -17,18 +17,19 @@ PILL_FILL = "#160D06"
 LBL_FONT = "Copperplate, 'Trajan Pro', Georgia, serif"
 VAL_FONT = "Georgia, 'Times New Roman', serif"
 
+# (icon, name, items, reclaim %) -- the % drives the decorative stillsuit water gauge
 SECTIONS = [
-    ("◈", "LANGUAGES", ["TypeScript", "JavaScript", "Python", "Java", "Swift", "HTML", "CSS", "SQL"]),
-    ("⚔", "FRAMEWORKS", ["React", "Next.js", "TanStack Start", "Node.js", "Express", "Tailwind",
+    ("◈", "LANGUAGES", 92, ["TypeScript", "JavaScript", "Python", "Java", "Swift", "HTML", "CSS", "SQL"]),
+    ("⚔", "FRAMEWORKS", 88, ["React", "Next.js", "TanStack Start", "Node.js", "Express", "Tailwind",
                          "Vite", "Prisma", "Sequelize", "Socket.IO", "NextAuth", "Zustand", "Zod",
                          "GSAP", "React Router",
                          "Vitest", "Jest", "Playwright"]),
-    ("☵", "DATA & CLOUD", ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Redis", "Kafka",
+    ("☵", "DATA & CLOUD", 80, ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Redis", "Kafka",
                            "RabbitMQ", "Neon", "AWS", "Vercel", "Railway", "Render",
                            "GitHub Pages"]),
-    ("👁", "AI / LLM", ["Groq · Llama 3.3", "Gemini 2.0 Flash", "OpenAI",
+    ("👁", "AI / LLM", 85, ["Groq · Llama 3.3", "Gemini 2.0 Flash", "OpenAI",
                        "MCP Protocol", "CrewAI", "FastMCP", "Jupyter"]),
-    ("⚙", "TOOLS", ["VS Code", "Git", "GitHub", "Linux", "Docker", "Figma", "Postman",
+    ("⚙", "TOOLS", 90, ["VS Code", "Git", "GitHub", "Linux", "Docker", "Figma", "Postman",
                     "Maven", "Xcode"]),
 ]
 
@@ -75,18 +76,35 @@ def layout():
     els = []
     y = TOP
     delay = 0.25
-    for icon, name, items in SECTIONS:
+    sec_i = 0
+    for icon, name, pct, items in SECTIONS:
         # heading + rule
-        label = f"{icon}  {name}"
+        label = f"{icon}\u00a0\u00a0{name}"
         els.append(
-            f'<text x="{PAD}" y="{y}" class="head" font-family="{LBL_FONT}" '
+            f'<text x="{PAD}" y="{y}" class="head" filter="url(#shimmer)" font-family="{LBL_FONT}" '
             f'font-size="{HEAD_FONT}" letter-spacing="3.5" fill="{GOLD}">{esc(label)}</text>'
         )
         rule_x = PAD + text_width(name, HEAD_FONT) * 1.35 + 44
+        gauge_w = 110
+        gauge_x = W - PAD - gauge_w
         els.append(
-            f'<rect x="{rule_x:.0f}" y="{y - 4}" width="{W - PAD - rule_x:.0f}" height="1" '
+            f'<rect x="{rule_x:.0f}" y="{y - 4}" width="{gauge_x - 60 - rule_x:.0f}" height="1" '
             f'fill="url(#rule)"/>'
         )
+        # stillsuit water gauge: track, animated fill, moving shine, label
+        fill_w = gauge_w * pct / 100
+        els.append(
+            f'<text x="{gauge_x - 8}" y="{y}" text-anchor="end" font-family="{LBL_FONT}" font-size="8" '
+            f'letter-spacing="2" fill="{GOLD}" opacity="0.5">RECLAIM</text>'
+            f'<rect x="{gauge_x}" y="{y - 8}" width="{gauge_w}" height="7" rx="3.5" fill="{BROWN}" opacity="0.45"/>'
+            f'<rect class="gauge" style="animation-delay:{0.6 + sec_i * 0.2:.1f}s;transform-origin:{gauge_x}px 0" '
+            f'x="{gauge_x}" y="{y - 8}" width="{fill_w:.0f}" height="7" rx="3.5" fill="url(#water)"/>'
+            f'<rect x="{gauge_x}" y="{y - 8}" width="22" height="7" rx="3.5" fill="{CREAM}" opacity="0.22">'
+            f'<animate attributeName="x" values="{gauge_x};{gauge_x + fill_w - 22:.0f};{gauge_x}" dur="{5 + sec_i:.0f}s" repeatCount="indefinite"/></rect>'
+            f'<text x="{W - PAD + 2}" y="{y + 11}" text-anchor="end" font-family="{VAL_FONT}" font-size="9" '
+            f'fill="{SAND}" opacity="0.6">{pct}%</text>'
+        )
+        sec_i += 1
         # pills
         x = PAD
         py = y + 16
@@ -146,6 +164,16 @@ def build():
         '</radialGradient>',
         '<filter id="ember" x="-30%" y="-30%" width="160%" height="160%">',
         '<feGaussianBlur stdDeviation="8"/></filter>',
+        '<linearGradient id="water" x1="0" y1="0" x2="1" y2="0">',
+        f'<stop offset="0" stop-color="{GOLD}"/><stop offset="1" stop-color="{EMBER}"/>',
+        '</linearGradient>',
+        # heat shimmer on headings: turbulence drifts slowly, displaces by ~1px
+        '<filter id="shimmer" x="-5%" y="-40%" width="110%" height="180%">',
+        '<feTurbulence type="fractalNoise" baseFrequency="0.02 0.08" numOctaves="1" seed="3" result="n">',
+        '<animate attributeName="baseFrequency" values="0.02 0.08;0.03 0.06;0.02 0.08" dur="9s" repeatCount="indefinite"/>',
+        '</feTurbulence>',
+        '<feDisplacementMap in="SourceGraphic" in2="n" scale="1.6" xChannelSelector="R" yChannelSelector="G"/>',
+        '</filter>',
         '</defs>',
         '<style>',
         '.in{animation:in .8s ease-out .15s both}',
@@ -156,7 +184,9 @@ def build():
         '@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}',
         '.head{animation:pulse 4s ease-in-out infinite}',
         '@keyframes pulse{0%,100%{opacity:.78}50%{opacity:1}}',
-        '@media (prefers-reduced-motion:reduce){.in,.pill,.em,.head{animation:none}}',
+        '.gauge{animation:fill 1.6s cubic-bezier(.2,.7,.3,1) both}',
+        '@keyframes fill{from{transform:scaleX(0)}to{transform:scaleX(1)}}',
+        '@media (prefers-reduced-motion:reduce){.in,.pill,.em,.head,.gauge{animation:none}}',
         '</style>',
         # panel (same construction as the stat cards)
         f'<rect class="em" x="6" y="6" width="{W - 12}" height="{H - 12}" rx="14" fill="{EMBER}" filter="url(#ember)"/>',

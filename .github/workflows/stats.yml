@@ -19,9 +19,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: regenerate activity ticker
+        run: python3 scripts/generate_activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/spice-github-stats.svg assets/spice-langs.svg
+          git add assets/spice-github-stats.svg assets/spice-langs.svg assets/spice-sandmap.svg assets/activity.svg
           git diff --cached --quiet || { git commit -m "🔄 Refresh spice stats cards"; git push; }

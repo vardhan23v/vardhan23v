@@ -28,7 +28,10 @@ query($login:String!){
     contributionsCollection{
       totalCommitContributions
       restrictedContributionsCount
-      contributionCalendar{totalContributions}
+      contributionCalendar{
+        totalContributions
+        weeks{ contributionDays{ date contributionCount weekday } }
+      }
     }
   }
 }
@@ -271,6 +274,126 @@ def langs_card(repos):
     return ''.join(p)
 
 
+def streaks(days):
+    """days: list of (date, count) ascending. Returns current, longest, best_day."""
+    import datetime as dt
+    today = dt.date.today()
+    longest = cur = 0
+    best = (None, 0)
+    for d, c in days:
+        if c > 0:
+            cur += 1
+            longest = max(longest, cur)
+            if c > best[1]:
+                best = (d, c)
+        else:
+            cur = 0
+    # current streak: walk back from today, allowing today to still be empty
+    current = 0
+    for d, c in reversed(days):
+        if dt.date.fromisoformat(d) > today:
+            continue
+        if c > 0:
+            current += 1
+        elif d == today.isoformat():
+            continue
+        else:
+            break
+    return current, longest, best
+
+
+def sand_map_card(u):
+    """Contribution heatmap ("Arrakis Sand Map") with streak column."""
+    import datetime as dt
+    weeks = u["contributionsCollection"]["contributionCalendar"]["weeks"]
+    days = [(d["date"], d["contributionCount"]) for w in weeks for d in w["contributionDays"]]
+    current, longest, best = streaks(days)
+    total = u["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+    peak = max((c for _, c in days), default=1) or 1
+
+    W, H = 920, 210
+    cell, gap = 11, 3
+    gx, gy = 40, 74
+    weeks = weeks[-52:]
+    shades = ["#1d130b", "#5a3414", "#8a4a1e", ORANGE, EMBER]
+    p = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
+        f'viewBox="0 0 {W} {H}" role="img" aria-label="Contribution heatmap for the last year">',
+        CARD_HEAD,
+        '<style>.c{animation:c .6s ease-out both}@keyframes c{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}'
+        '.hot{animation:hot 3s ease-in-out infinite alternate}@keyframes hot{from{opacity:.75}to{opacity:1}}'
+        '@media (prefers-reduced-motion:reduce){.c,.hot{animation:none}}</style>',
+        panel(W, H),
+        '<g class="in">',
+        title(28, 38, "ARRAKIS SAND MAP"),
+        f'<text x="{W - 52}" y="38" text-anchor="end" font-family="{LBL_FONT}" font-size="9" '
+        f'letter-spacing="2.5" fill="{GOLD}" opacity="0.6">{fmt(total)} CONTRIBUTIONS · LAST 52 WEEKS</text>',
+        diamond(W - 38, 33, 8),
+        '</g>',
+    ]
+    # month labels
+    seen = set()
+    for wi, w in enumerate(weeks):
+        d = dt.date.fromisoformat(w["contributionDays"][0]["date"])
+        key = (d.year, d.month)
+        if key not in seen and d.day <= 7:
+            seen.add(key)
+            p.append(
+                f'<text x="{gx + wi * (cell + gap)}" y="{gy - 8}" font-family="{LBL_FONT}" font-size="8" '
+                f'letter-spacing="1.5" fill="{GOLD}" opacity="0.55">{d.strftime("%b").upper()}</text>'
+            )
+    # weekday ticks
+    for i, lbl in ((1, "M"), (3, "W"), (5, "F")):
+        p.append(
+            f'<text x="{gx - 10}" y="{gy + i * (cell + gap) + 9}" text-anchor="end" font-family="{LBL_FONT}" '
+            f'font-size="8" fill="{GOLD}" opacity="0.45">{lbl}</text>'
+        )
+    # cells, settling column by column like a sandstorm
+    for wi, w in enumerate(weeks):
+        for d in w["contributionDays"]:
+            c = d["contributionCount"]
+            lvl = 0 if c == 0 else min(4, 1 + int(3 * c / peak))
+            x = gx + wi * (cell + gap)
+            y = gy + d["weekday"] * (cell + gap)
+            cls = "c hot" if lvl == 4 else "c"
+            delay = 0.3 + wi * 0.035 + d["weekday"] * 0.01
+            p.append(
+                f'<rect class="{cls}" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" '
+                f'fill="{shades[lvl]}" style="animation-delay:{delay:.2f}s"><title>{d["date"]}: {c}</title></rect>'
+            )
+    # legend
+    lx = gx
+    ly = gy + 7 * (cell + gap) + 12
+    p.append(f'<text x="{lx}" y="{ly + 8}" font-family="{LBL_FONT}" font-size="8" letter-spacing="1.5" fill="{GOLD}" opacity="0.5">CALM</text>')
+    for i, sh in enumerate(shades):
+        p.append(f'<rect x="{lx + 36 + i * 13}" y="{ly}" width="10" height="10" rx="2" fill="{sh}"/>')
+    p.append(f'<text x="{lx + 36 + 5 * 13 + 4}" y="{ly + 8}" font-family="{LBL_FONT}" font-size="8" letter-spacing="1.5" fill="{GOLD}" opacity="0.5">STORM</text>')
+    # streak column
+    sx = gx + 52 * (cell + gap) + 22
+    p.append(f'<rect x="{sx - 12}" y="66" width="1" height="{H - 96}" fill="{GOLD}" opacity="0.22"/>')
+    rows = [
+        (str(current), "DAY STREAK", "CURRENT"),
+        (str(longest), "DAY STREAK", "LONGEST"),
+        (str(best[1]), "IN A DAY", "PEAK HARVEST"),
+    ]
+    for i, (val, lbl, sub) in enumerate(rows):
+        y = 92 + i * 42
+        p.append(f'<g class="lg" style="animation-delay:{0.8 + i * 0.15:.2f}s">')
+        p.append(diamond(sx + 4, y - 7, 5, GOLD, "0.65"))
+        p.append(
+            f'<text x="{sx + 14}" y="{y}" font-family="{VAL_FONT}" font-weight="bold" font-size="22" fill="{SAND}">{val}</text>'
+        )
+        p.append(
+            f'<text x="{sx + 14 + len(val) * 13 + 6}" y="{y}" font-family="{LBL_FONT}" font-size="8.5" letter-spacing="1.5" fill="{GOLD}" opacity="0.7">{lbl}</text>'
+        )
+        p.append(
+            f'<text x="{sx + 14}" y="{y + 14}" font-family="{LBL_FONT}" font-size="8.5" letter-spacing="2" fill="{GOLD}" opacity="0.5">{sub}</text>'
+        )
+        p.append('</g>')
+    p.append('<style>.lg{animation:in .7s ease-out both}</style></svg>')
+    return ''.join(p)
+
+
 def main():
     u = fetch()
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -278,7 +401,9 @@ def main():
         f.write(stats_card(u))
     with open(os.path.join(OUT_DIR, "spice-langs.svg"), "w") as f:
         f.write(langs_card(fetch_lang_repos()))
-    print("wrote spice-github-stats.svg, spice-langs.svg")
+    with open(os.path.join(OUT_DIR, "spice-sandmap.svg"), "w") as f:
+        f.write(sand_map_card(u))
+    print("wrote spice-github-stats.svg, spice-langs.svg, spice-sandmap.svg")
 
 
 if __name__ == "__main__":
