@@ -2,7 +2,6 @@
   Every image below is a generated SVG in assets/ (pure SMIL + CSS, no JS, no
   external fonts) so it animates inside GitHub's sandbox. Regenerate with:
       python3 scripts/generate_chips.py      # contact chips
-      python3 scripts/generate_litany.py     # quote band
       python3 scripts/generate_tech.py       # tech stack card
       python3 scripts/generate_terminal.py   # fake shell card
       GITHUB_TOKEN=... python3 scripts/generate_stats.py     # stats, languages, sand map
@@ -23,8 +22,6 @@
   &nbsp;
   <a href="https://github.com/vardhan23v?tab=repositories"><img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/chip-github.svg" height="40" alt="GitHub: @vardhan23v"/></a>
 </p>
-
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/litany.svg" width="100%" alt="I must not fear. Fear is the mind-killer. — Bene Gesserit Litany Against Fear"/>
 
 <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
 
