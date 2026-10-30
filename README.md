@@ -1,101 +1,147 @@
-<h1 align="center">Vardhan V</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Full-Stack Developer · Generative AI Builder</strong><br/>
-  I build production-ready web apps, real-time systems and AI-powered developer tools.
+# Sree Vardhan V
+
+### Full-Stack Developer · Generative AI Builder
+
+I build thoughtful web products, AI-powered developer tools, and real-time applications — from the first prototype to a deployed experience.
+
+<p>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-Contact-0891B2?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/vardhan23v?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20Projects-334155?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
 </p>
 
-<p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1E3A5F?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-1E3A5F?style=flat-square" alt="LinkedIn"/></a>
-  <a href="https://github.com/vardhan23v?tab=repositories"><img src="https://img.shields.io/badge/Repositories-2B2F36?style=flat-square&logo=github&logoColor=white" alt="Repositories"/></a>
+<p>
+  <img src="https://img.shields.io/badge/Building-AI%20%26%20Web%20Products-E0F2FE?style=flat-square" alt="Building">
+  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%2B%20Agentic%20AI-DBEAFE?style=flat-square" alt="Focus">
+  <img src="https://img.shields.io/badge/Open%20to-Internships%20%26%20Collaboration-CCFBF1?style=flat-square" alt="Open to opportunities">
 </p>
+
+</div>
 
 ---
 
-### About
+## A little about me
 
-Most student and small-team projects stop at a demo. I take mine to deployment: typed end to end,
-backed by a real database, tested and live on the web.
+I'm a computer science student who enjoys turning ideas into useful software. My work sits at the intersection of **full-stack development, generative AI, and practical product engineering**.
 
-My focus is where full-stack engineering meets generative AI: agent workflows, MCP tooling and
-LLM features that hold up under real use, not only in a notebook.
+I like building beyond the happy path: connecting interfaces to real APIs and databases, designing clear user flows, integrating AI capabilities, and getting projects deployed.
 
-- **Building:** AI-powered web apps, developer tools and real-time systems
-- **Shipping on:** Vercel, Railway and AWS
-- **Open to:** internships, collaborations and freelance work
+- **Currently exploring:** Agentic AI, LLM-powered workflows, and developer tools
+- **I enjoy building:** Full-stack applications, AI assistants, automation tools, and real-time experiences
+- **My approach:** Ship useful things, learn from real problems, and keep improving the details
+- **Open to:** Software development internships, collaborative projects, and meaningful opportunities
 
-### Tech Stack
+## Featured projects
 
-**Languages**<br/>
-![TypeScript](https://img.shields.io/badge/TypeScript-1E3A5F?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-1E3A5F?style=flat-square&logo=javascript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-1E3A5F?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-1E3A5F?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-1E3A5F?style=flat-square&logo=mysql&logoColor=white)
+<table>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#F4FAFF">
+      <strong><a href="https://github.com/vardhan23v/Vard-AI">Vard AI</a></strong><br>
+      A voice-first AI assistant with streaming conversations, persistent memory, and an extensible MCP tool system.<br><br>
+      <sub>TanStack Start · React · TypeScript · Groq · Supabase · MCP</sub>
+    </td>
+    <td width="50%" valign="top" bgcolor="#F4FAFF">
+      <strong><a href="https://github.com/vardhan23v/extension-AI">Extension AI</a></strong><br>
+      Generate Manifest V3 Chrome extensions from plain-English prompts, preview them, refine with AI, and download the result.<br><br>
+      <sub>React · Node.js · Express · MongoDB · Gemini · Groq</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#F4FAFF">
+      <strong><a href="https://github.com/vardhan23v/Disastermind-ai">DisasterMind AI</a></strong><br>
+      A multi-agent cyclone-response simulation with a tactical map, coordinated response workflows, and explainable recommendations.<br><br>
+      <sub>React · TypeScript · Leaflet · Zustand · Recharts</sub>
+    </td>
+    <td width="50%" valign="top" bgcolor="#F4FAFF">
+      <strong><a href="https://github.com/vardhan23v/campus-compass">Campus Compass</a></strong><br>
+      A college discovery and comparison platform helping Indian students explore institutions, compare details, and read reviews.<br><br>
+      <sub>Next.js · PostgreSQL · Prisma · NextAuth</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" bgcolor="#F4FAFF">
+      <strong><a href="https://github.com/vardhan23v/ipl-auction">IPL Mega Auction</a></strong><br>
+      A multiplayer franchise auction platform with live bidding, independent rooms, and real-time updates.<br><br>
+      <sub>Next.js · React · TypeScript · Socket.IO · Prisma · MySQL</sub>
+    </td>
+    <td width="50%" valign="top" bgcolor="#F4FAFF">
+      <strong><a href="https://github.com/vardhan23v/chitchain">ChitChain</a></strong><br>
+      A testnet prototype exploring smart-contract-based fund custody, collateral, transparent settlement, and AI-assisted risk assessment.<br><br>
+      <sub>Next.js · TypeScript · Solidity · FastAPI · CrewAI</sub>
+    </td>
+  </tr>
+</table>
 
-**Frameworks**<br/>
-![React](https://img.shields.io/badge/React-2B2F36?style=flat-square&logo=react&logoColor=22B8CF)
-![Next.js](https://img.shields.io/badge/Next.js-2B2F36?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-2B2F36?style=flat-square&logo=nodedotjs&logoColor=22B8CF)
-![Express](https://img.shields.io/badge/Express-2B2F36?style=flat-square&logo=express&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2B2F36?style=flat-square&logo=tailwindcss&logoColor=22B8CF)
-![Prisma](https://img.shields.io/badge/Prisma-2B2F36?style=flat-square&logo=prisma&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-2B2F36?style=flat-square&logo=socketdotio&logoColor=white)
+<p align="center">
+  <a href="https://github.com/vardhan23v?tab=repositories">Explore all repositories →</a>
+</p>
 
-**Data & Cloud**<br/>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E3A5F?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-1E3A5F?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-1E3A5F?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-1E3A5F?style=flat-square&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-1E3A5F?style=flat-square)
-![Vercel](https://img.shields.io/badge/Vercel-1E3A5F?style=flat-square&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-1E3A5F?style=flat-square&logo=docker&logoColor=white)
+## Technologies I work with
 
-**AI / LLM**<br/>
-![Gemini](https://img.shields.io/badge/Gemini-2B2F36?style=flat-square&logo=googlegemini&logoColor=22B8CF)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-2B2F36?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq_·_Llama-2B2F36?style=flat-square&logo=meta&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-2B2F36?style=flat-square)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-2B2F36?style=flat-square&logo=anthropic&logoColor=white)
+**Languages**
 
-### Selected Work
+![TypeScript](https://img.shields.io/badge/TypeScript-DBEAFE?style=flat-square&logo=typescript&logoColor=2563EB)
+![JavaScript](https://img.shields.io/badge/JavaScript-FEF3C7?style=flat-square&logo=javascript&logoColor=92400E)
+![Python](https://img.shields.io/badge/Python-DBEAFE?style=flat-square&logo=python&logoColor=1D4ED8)
+![Java](https://img.shields.io/badge/Java-FCE7F3?style=flat-square&logo=openjdk&logoColor=9D174D)
+![SQL](https://img.shields.io/badge/SQL-E0F2FE?style=flat-square&logo=mysql&logoColor=0369A1)
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [**Campus Compass**](https://github.com/vardhan23v/campus-compass) | College discovery and comparison for Indian students: search, filter, compare and review, with recommendations. | Next.js · PostgreSQL · Prisma · NextAuth |
-| [**IPL Auction**](https://github.com/vardhan23v/ipl-auction) | Live multiplayer auction rooms. Share a code, claim franchises and bid in real time from any phone. | Next.js · Socket.IO · Prisma · MySQL |
-| [**TrustLens AI**](https://github.com/vardhan23v/trustlens-ai) | Checks screenshots, messages and viral claims and returns an explainable, evidence-backed trust report. | Python · CrewAI · Gemini |
-| [**ChitChain**](https://github.com/vardhan23v/chitchain) | A trust-minimised chit fund. The pot lives in a smart contract, and an AI risk engine prices collateral. | TypeScript · Smart contracts · AI agents |
+**Frontend & backend**
 
-### How I Build
+![React](https://img.shields.io/badge/React-E0F2FE?style=flat-square&logo=react&logoColor=0284C7)
+![Next.js](https://img.shields.io/badge/Next.js-E2E8F0?style=flat-square&logo=nextdotjs&logoColor=0F172A)
+![Node.js](https://img.shields.io/badge/Node.js-DCFCE7?style=flat-square&logo=nodedotjs&logoColor=166534)
+![Express](https://img.shields.io/badge/Express-E2E8F0?style=flat-square&logo=express&logoColor=334155)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-CFFAFE?style=flat-square&logo=tailwindcss&logoColor=0E7490)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-E2E8F0?style=flat-square&logo=socketdotio&logoColor=334155)
 
-A typical project of mine follows the same shape: a typed web client, an API layer that owns
-validation and auth, a relational database, and AI services kept behind the server.
+**Data, cloud & tools**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-DBEAFE?style=flat-square&logo=postgresql&logoColor=1D4ED8)
+![MySQL](https://img.shields.io/badge/MySQL-E0F2FE?style=flat-square&logo=mysql&logoColor=0369A1)
+![MongoDB](https://img.shields.io/badge/MongoDB-D1FAE5?style=flat-square&logo=mongodb&logoColor=047857)
+![Redis](https://img.shields.io/badge/Redis-FEE2E2?style=flat-square&logo=redis&logoColor=B91C1C)
+![Docker](https://img.shields.io/badge/Docker-DBEAFE?style=flat-square&logo=docker&logoColor=1D4ED8)
+![Git](https://img.shields.io/badge/Git-FEE2E2?style=flat-square&logo=git&logoColor=B91C1C)
+![Vercel](https://img.shields.io/badge/Vercel-E2E8F0?style=flat-square&logo=vercel&logoColor=0F172A)
+![Railway](https://img.shields.io/badge/Railway-EDE9FE?style=flat-square&logo=railway&logoColor=6D28D9)
+
+**AI & agentic development**
+
+![Gemini](https://img.shields.io/badge/Gemini-DBEAFE?style=flat-square&logo=googlegemini&logoColor=1D4ED8)
+![OpenAI](https://img.shields.io/badge/OpenAI-CCFBF1?style=flat-square&logo=openai&logoColor=0F766E)
+![Groq](https://img.shields.io/badge/Groq-FFEDD5?style=flat-square&logo=groq&logoColor=C2410C)
+![CrewAI](https://img.shields.io/badge/CrewAI-F1F5F9?style=flat-square)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-E0F2FE?style=flat-square)
+
+## How I think about building
+
+I aim for a simple, maintainable flow: understand the problem, design the experience, build reliable application layers, integrate services carefully, and deploy something people can actually use.
 
 ```mermaid
 flowchart LR
-    U[User] --> C[React / Next.js client]
-    C -->|REST · WebSocket| A[API layer<br/>Node.js · Express · Next.js routes]
-    A --> D[(PostgreSQL / MySQL<br/>via Prisma)]
-    A --> R[(Redis cache)]
-    A --> L[LLM services<br/>Gemini · Groq · OpenAI]
-    L --> T[Agents & MCP tools]
-    A --> H[Deploy<br/>Vercel · Railway · AWS]
-
-    classDef navy fill:#1E3A5F,stroke:#1E3A5F,color:#ffffff;
-    classDef cyan fill:#E6F7FA,stroke:#22B8CF,color:#2B2F36;
-    class C,A navy;
-    class D,R,L,T,H cyan;
+    A[Problem & product thinking] --> B[User experience]
+    B --> C[Frontend]
+    C --> D[API & business logic]
+    D --> E[(Database)]
+    D --> F[AI & integrations]
+    E --> G[Testing & deployment]
+    F --> G
 ```
 
----
+## Let's connect
+
+I'm always happy to connect with developers, founders, and teams working on interesting products.
 
 <p align="center">
-  <sub>
-    Vardhan V ·
-    <a href="https://vardhan-v-portfilo.vercel.app/">Portfolio</a> ·
-    <a href="https://www.linkedin.com/in/vardhan-v23/">LinkedIn</a> ·
-    <a href="https://github.com/vardhan23v">GitHub</a>
-  </sub>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><strong>Portfolio</strong></a> ·
+  <a href="https://www.linkedin.com/in/vardhan-v23/"><strong>LinkedIn</strong></a> ·
+  <a href="https://github.com/vardhan23v"><strong>GitHub</strong></a>
+</p>
+
+<p align="center">
+  <sub>Designed with a soft blue glass-inspired palette · Built with curiosity and consistency.</sub>
 </p>
