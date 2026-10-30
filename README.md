@@ -6,10 +6,10 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-light.svg" width="100%" alt="Sree Vardhan V, Full-Stack Developer and Generative AI Builder. I build full-stack web apps and AI-powered tools, from the first prototype to a deployed product. Open to internships and collaborations.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-light.svg" width="100%" alt="Sree Vardhan V, Full-Stack Developer and Generative AI Builder. I build full-stack web apps and AI-powered tools, from the first prototype to a deployed product. Open to internships and collaborations.">
   </picture>
 </p>
 
@@ -19,8 +19,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
   </picture>
 </p>
 
@@ -37,8 +37,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
   </picture>
 </p>
 
@@ -48,8 +48,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
   <tr>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-light.svg"  alt="AI assistant">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-vard-ai-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-vard-ai-light.svg"  alt="AI assistant">
       </picture>
       <h3><a href="https://github.com/vardhan23v/Vard-AI">Vard AI</a></h3>
       <p>A voice-first personal assistant: speak or type, and get answers streamed back token by token.</p>
@@ -59,8 +59,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-light.svg"  alt="AI developer tool">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-extension-ai-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-extension-ai-light.svg"  alt="AI developer tool">
       </picture>
       <h3><a href="https://github.com/vardhan23v/extension-AI">Extension AI</a></h3>
       <p>Turns a plain-English prompt into a working Chrome extension, so an idea can be tried without writing the boilerplate.</p>
@@ -72,8 +72,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
   <tr>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-light.svg"  alt="Agentic AI">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-trustlens-ai-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-trustlens-ai-light.svg"  alt="Agentic AI">
       </picture>
       <h3><a href="https://github.com/vardhan23v/trustlens-ai">TrustLens AI</a></h3>
       <p>Analyses an image, video, audio clip or text and returns an evidence-backed trust report instead of a bare real-or-fake label.</p>
@@ -83,8 +83,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-hpl-auction-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-hpl-auction-light.svg"  alt="Real-time">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-hpl-auction-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-hpl-auction-light.svg"  alt="Real-time">
       </picture>
       <h3><a href="https://github.com/vardhan23v/hpl-auction">HPL Auction</a></h3>
       <p>Runs a live cricket player auction for a six-team hostel league, with captains bidding from their phones.</p>
@@ -96,8 +96,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
   <tr>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-campus-compass-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-campus-compass-light.svg"  alt="Full-stack">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-campus-compass-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-campus-compass-light.svg"  alt="Full-stack">
       </picture>
       <h3><a href="https://github.com/vardhan23v/campus-compass">Campus Compass</a></h3>
       <p>Helps Indian students discover colleges and compare up to three side by side on fees, placements and facilities.</p>
@@ -107,8 +107,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-chitchain-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-chitchain-light.svg"  alt="Web3 and AI">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-chitchain-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-chitchain-light.svg"  alt="Web3 and AI">
       </picture>
       <h3><a href="https://github.com/vardhan23v/chitchain">ChitChain</a></h3>
       <p>A testnet chit-fund prototype where the pot and collateral sit in a smart contract instead of with one organiser.</p>
@@ -123,8 +123,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
   </picture>
 </p>
 
@@ -142,8 +142,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
   </picture>
 </p>
 
@@ -151,18 +151,18 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-light.svg" width="100%" alt="GitHub statistics and the main languages across my public repositories, updated daily.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-overview-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-overview-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-overview-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-overview-light.svg" width="100%" alt="GitHub statistics and the main languages across my public repositories, updated daily.">
   </picture>
 </p>
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-light.svg" width="100%" alt="Contribution heatmap for the last 12 months, updated daily.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-light.svg" width="100%" alt="Contribution heatmap for the last 12 months, updated daily.">
   </picture>
 </p>
 
@@ -170,8 +170,8 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
   </picture>
 </p>
 
@@ -199,8 +199,8 @@ interfaces, so models can change without touching the UI. Then I deploy early an
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
   </picture>
 </p>
 
