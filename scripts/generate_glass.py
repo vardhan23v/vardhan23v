@@ -13,7 +13,7 @@ HERO = {
     "name": "Sree Vardhan V",
     "role": ("Full-Stack Developer", "Generative AI Builder"),
     "line": "I build full-stack web apps and AI-powered tools, from the first prototype to a deployed product.",
-    "status": "Open to internships and collaborations",
+    "status": "Open to collaborations",
 }
 
 # project slug -> category label shown above the card title. Keep them short:

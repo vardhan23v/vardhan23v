@@ -9,7 +9,7 @@
     <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-mobile-dark.svg">
     <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-light.svg" width="100%" alt="Sree Vardhan V, Full-Stack Developer and Generative AI Builder. I build full-stack web apps and AI-powered tools, from the first prototype to a deployed product. Open to internships and collaborations.">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/hero-light.svg" width="100%" alt="Sree Vardhan V, Full-Stack Developer and Generative AI Builder. I build full-stack web apps and AI-powered tools, from the first prototype to a deployed product. Open to collaborations.">
   </picture>
 </p>
 
@@ -33,7 +33,7 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 - **Building with:** TypeScript, React and Next.js on the front, Node.js or FastAPI behind, PostgreSQL or MySQL underneath
 - **Focused on:** generative and agentic AI, developer tools and real-time applications
 - **Working style:** ship a working version early, then harden it with validation, tests and clear docs
-- **Open to:** software development internships and collaborative projects
+- **Open to:** collaborative projects
 
 <p align="center">
   <picture>
@@ -175,38 +175,9 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
   </picture>
 </p>
 
-## How I build
-
-```mermaid
-flowchart LR
-    U([User]) --> F[Frontend<br/>React · Next.js]
-    F --> B[Backend / API<br/>Node.js · FastAPI]
-    B --> D[(Database<br/>PostgreSQL · MySQL)]
-    B --> AI[AI integrations<br/>Gemini · Groq · agents]
-    D --> P[Deployment<br/>Vercel · Railway · Docker]
-    AI --> P
-
-    classDef soft fill:#DBEAFE,stroke:#0284C7,stroke-width:1px,color:#1E293B;
-    classDef cyan fill:#CFFAFE,stroke:#0284C7,stroke-width:1px,color:#1E293B;
-    class U,F,B soft;
-    class D,AI,P cyan;
-```
-
-I keep each layer's job clear. The frontend owns the experience and its loading, error and empty
-states. The API validates every input and owns business rules and authentication. The database
-enforces integrity with constraints and transactions. AI calls stay on the server, behind typed
-interfaces, so models can change without touching the UI. Then I deploy early and keep it running.
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
-  </picture>
-</p>
-
 ## Let's connect
 
-I'm happy to talk about internships, collaborations, or anything you're building with full-stack and AI.
+I'm happy to talk about collaborations, or anything you're building with full-stack and AI.
 
 <p align="center">
   <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0369A1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-0369A1?style=flat-square" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
