@@ -7,7 +7,7 @@ KICKERS and rerun from the repo root:
 
 Stats images come from scripts/generate_stats.py instead (needs a token).
 """
-from glass import GREEN, THEMES, chip, glass, backdrop, svg, text, text_width, wrap, write
+from glass import GREEN, THEMES, chip, glass, svg, text, text_width, wrap, write
 
 HERO = {
     "name": "Sree Vardhan V",
@@ -28,15 +28,63 @@ KICKERS = {
 }
 
 
-def hero(t):
+# Hero aurora: (base gradient, bands of (from, to) colours, band opacity, grid colour, grid opacity,
+# glass fill, glass opacity). The glass is denser than elsewhere so text stays at WCAG AA over the
+# brightest band: frosted white in light mode, smoked navy in dark mode.
+AURORA = {
+    "light": (("#F8FAFC", "#EFF6FF"), (("#60A5FA", "#22D3EE"), ("#A5B4FC", "#93C5FD"), ("#67E8F9", "#38BDF8")),
+              0.6, "#0284C7", 0.12, "#FFFFFF", 0.66),
+    "dark": (("#070D1A", "#0B1220"), (("#2563EB", "#06B6D4"), ("#4F46E5", "#1D4ED8"), ("#0891B2", "#22D3EE")),
+             0.55, "#7DD3FC", 0.10, "#0B1220", 0.45),
+}
+
+
+def aurora(mode, t, W, H, rx, blur, grid):
+    """Flowing blurred colour bands over a faint grid that fades out towards the edges."""
+    (b0, b1), bands, band_op, grid_color, grid_op, _, _ = AURORA[mode]
+    # (centre x, centre y, half-width, half-height, rotation) as fractions of the frame
+    shapes = [(0.22, 0.15, 0.42, 0.16, -14), (0.62, 0.05, 0.36, 0.14, 10), (0.80, 0.92, 0.44, 0.18, -8)]
+    defs = [
+        f'<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{b0}"/>'
+        f'<stop offset="1" stop-color="{b1}"/></linearGradient>',
+        '<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0" stop-color="#FFFFFF" stop-opacity="{t["edge_op"] * 0.4:.3f}"/>'
+        '<stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>',
+        f'<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="{blur}"/></filter>',
+        f'<clipPath id="clip"><rect width="{W}" height="{H}" rx="{rx}"/></clipPath>',
+        f'<pattern id="grid" width="{grid}" height="{grid}" patternUnits="userSpaceOnUse">'
+        f'<path d="M {grid} 0 L 0 0 0 {grid}" fill="none" stroke="{grid_color}" stroke-width="1"/></pattern>',
+        '<radialGradient id="fade" cx="0.5" cy="0.5" r="0.6"><stop offset="0" stop-color="#FFFFFF"/>'
+        '<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>',
+        f'<mask id="gridMask"><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>',
+    ]
+    for i, (c0, c1) in enumerate(bands):
+        defs.append(f'<linearGradient id="band{i}" x1="0" x2="1"><stop offset="0" stop-color="{c0}"/>'
+                    f'<stop offset="1" stop-color="{c1}"/></linearGradient>')
+    body = [f'<rect width="{W}" height="{H}" fill="url(#bg)"/>',
+            f'<rect width="{W}" height="{H}" fill="url(#grid)" opacity="{grid_op}" mask="url(#gridMask)"/>']
+    for i, (cx, cy, rx_, ry_, rot) in enumerate(shapes):
+        x, y = cx * W, cy * H
+        body.append(f'<ellipse cx="{x:.0f}" cy="{y:.0f}" rx="{rx_ * W:.0f}" ry="{ry_ * W:.0f}" fill="url(#band{i})" '
+                    f'opacity="{band_op}" filter="url(#blur)" transform="rotate({rot} {x:.0f} {y:.0f})"/>')
+    return ("<defs>" + "".join(defs) + "</defs>"
+            + f'<g clip-path="url(#clip)">{"".join(body)}</g>'
+            + f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="{rx}" fill="none" stroke="{t["frame"]}"/>')
+
+
+def hero_glass(mode, t):
+    return {**t, "glass_fill": AURORA[mode][5], "glass_op": AURORA[mode][6]}
+
+
+def hero(mode, t):
     W, H = 1000, 250
     role = "  ·  ".join(HERO["role"])
     lines = wrap(HERO["line"], 15.5, 700)
     y = 154 + (len(lines) - 1) * 22 + 22
     pill, pw = chip(0, 0, HERO["status"], 13, t, dot=GREEN)
     body = [
-        backdrop(t, W, H, 26, 50, [(150, 40, 160, 0), (880, 220, 170, 1), (560, -20, 120, 2)]),
-        glass(48, 32, W - 96, H - 64, 22, t),
+        aurora(mode, t, W, H, 26, 42, 28),
+        glass(48, 32, W - 96, H - 64, 22, hero_glass(mode, t)),
         text(W / 2, 92, HERO["name"], 40, t["text"], 700, "middle", -0.6),
         text(W / 2, 124, role, 17, t["accent_text"], 600, "middle"),
     ]
@@ -45,7 +93,7 @@ def hero(t):
     return svg(W, H, f'{HERO["name"]}, {role}. {HERO["line"]} {HERO["status"]}.', "".join(body))
 
 
-def hero_mobile(t):
+def hero_mobile(mode, t):
     W = 340
     lines = wrap(HERO["line"], 14.5, W - 70)
     y_line = 144
@@ -53,8 +101,8 @@ def hero_mobile(t):
     pill, pw = chip(0, 0, HERO["status"], 12, t, dot=GREEN)
     H = y_pill + 26 + 36
     body = [
-        backdrop(t, W, H, 22, 36, [(40, 30, 120, 0), (300, H - 20, 130, 1), (220, -10, 80, 2)]),
-        glass(14, 14, W - 28, H - 28, 18, t),
+        aurora(mode, t, W, H, 22, 26, 22),
+        glass(14, 14, W - 28, H - 28, 18, hero_glass(mode, t)),
         text(W / 2, 74, HERO["name"], 31, t["text"], 700, "middle", -0.5),
     ]
     body += [text(W / 2, 102 + i * 20, r, 15.5, t["accent_text"], 600, "middle") for i, r in enumerate(HERO["role"])]
@@ -90,8 +138,8 @@ def kicker(label, t):
 
 def main():
     for mode, t in THEMES.items():
-        write(f"hero-{mode}.svg", hero(t))
-        write(f"hero-mobile-{mode}.svg", hero_mobile(t))
+        write(f"hero-{mode}.svg", hero(mode, t))
+        write(f"hero-mobile-{mode}.svg", hero_mobile(mode, t))
         write(f"divider-{mode}.svg", divider(t))
         for slug, label in KICKERS.items():
             write(f"kicker-{slug}-{mode}.svg", kicker(label, t))

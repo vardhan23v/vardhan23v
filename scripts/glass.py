@@ -102,7 +102,8 @@ def backdrop(t, w, h, rx, blur, blobs):
 
 def glass(x, y, w, h, rx, t):
     return (
-        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="#FFFFFF" fill-opacity="{t["glass_op"]}"/>'
+        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{t.get("glass_fill", "#FFFFFF")}" '
+        f'fill-opacity="{t["glass_op"]}"/>'
         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="url(#sheen)"/>'
         f'<rect x="{x + 0.5}" y="{y + 0.5}" width="{w - 1}" height="{h - 1}" rx="{rx}" fill="none" '
         f'stroke="{t["edge"]}" stroke-opacity="{t["edge_op"]}"/>'
