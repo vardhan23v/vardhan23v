@@ -1,61 +1,101 @@
-<!--
-  Every image below is a generated SVG in assets/ (pure SMIL + CSS, no JS, no
-  external fonts) so it animates inside GitHub's sandbox. Regenerate with:
-      python3 scripts/generate_chips.py      # contact chips
-      python3 scripts/generate_tech.py       # tech stack card
-      python3 scripts/generate_terminal.py   # fake shell card
-      GITHUB_TOKEN=... python3 scripts/generate_stats.py     # stats, languages, sand map
-      GITHUB_TOKEN=... python3 scripts/generate_activity.py  # activity ticker
-  The last two also run daily via .github/workflows/stats.yml.
--->
-
-<a id="top"></a>
-
 <h1 align="center">Vardhan V</h1>
 
-<p align="center"><sub>Full-Stack Developer · Generative AI Builder</sub></p>
-
 <p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/chip-portfolio.svg" height="40" alt="Portfolio: vardhan-v-portfilo.vercel.app"/></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/chip-linkedin.svg" height="40" alt="LinkedIn: in/vardhan-v23"/></a>
-  &nbsp;
-  <a href="https://github.com/vardhan23v?tab=repositories"><img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/chip-github.svg" height="40" alt="GitHub: @vardhan23v"/></a>
+  <strong>Full-Stack Developer · Generative AI Builder</strong><br/>
+  I build production-ready web apps, real-time systems and AI-powered developer tools.
 </p>
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
+<p align="center">
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1E3A5F?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-1E3A5F?style=flat-square" alt="LinkedIn"/></a>
+  <a href="https://github.com/vardhan23v?tab=repositories"><img src="https://img.shields.io/badge/Repositories-2B2F36?style=flat-square&logo=github&logoColor=white" alt="Repositories"/></a>
+</p>
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-harvest.svg" width="100%" alt="Spice Harvest Data"/>
+---
 
-<div align="center">
+### About
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-github-stats.svg" alt="GitHub Stats" height="165"/>
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-langs.svg" alt="Top Languages" height="165"/>
+Most student and small-team projects stop at a demo. I take mine to deployment: typed end to end,
+backed by a real database, tested and live on the web.
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/spice-sandmap.svg" width="100%" alt="Arrakis Sand Map — contribution heatmap for the last 52 weeks with current streak, longest streak and peak day"/>
+My focus is where full-stack engineering meets generative AI: agent workflows, MCP tooling and
+LLM features that hold up under real use, not only in a notebook.
 
-</div>
+- **Building:** AI-powered web apps, developer tools and real-time systems
+- **Shipping on:** Vercel, Railway and AWS
+- **Open to:** internships, collaborations and freelance work
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/activity.svg" width="100%" alt="Spice Production — recent GitHub activity ticker"/>
+### Tech Stack
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
+**Languages**<br/>
+![TypeScript](https://img.shields.io/badge/TypeScript-1E3A5F?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-1E3A5F?style=flat-square&logo=javascript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1E3A5F?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-1E3A5F?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1E3A5F?style=flat-square&logo=mysql&logoColor=white)
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/title-stillsuit.svg" width="100%" alt="Tech Still Suit"/>
+**Frameworks**<br/>
+![React](https://img.shields.io/badge/React-2B2F36?style=flat-square&logo=react&logoColor=22B8CF)
+![Next.js](https://img.shields.io/badge/Next.js-2B2F36?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-2B2F36?style=flat-square&logo=nodedotjs&logoColor=22B8CF)
+![Express](https://img.shields.io/badge/Express-2B2F36?style=flat-square&logo=express&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-2B2F36?style=flat-square&logo=tailwindcss&logoColor=22B8CF)
+![Prisma](https://img.shields.io/badge/Prisma-2B2F36?style=flat-square&logo=prisma&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-2B2F36?style=flat-square&logo=socketdotio&logoColor=white)
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/tech-stillsuit.svg" width="100%" alt="Tech stack — Languages, Frameworks, Data &amp; Cloud, AI / LLM, Tools"/>
+**Data & Cloud**<br/>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E3A5F?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-1E3A5F?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-1E3A5F?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-1E3A5F?style=flat-square&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-1E3A5F?style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-1E3A5F?style=flat-square&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-1E3A5F?style=flat-square&logo=docker&logoColor=white)
 
-<div align="center">
+**AI / LLM**<br/>
+![Gemini](https://img.shields.io/badge/Gemini-2B2F36?style=flat-square&logo=googlegemini&logoColor=22B8CF)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-2B2F36?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq_·_Llama-2B2F36?style=flat-square&logo=meta&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-2B2F36?style=flat-square)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-2B2F36?style=flat-square&logo=anthropic&logoColor=white)
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/terminal.svg" width="100%" alt="Fremen Terminal — whoami, tech stack, status and motto typed out in a shell"/>
+### Selected Work
 
-</div>
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**Campus Compass**](https://github.com/vardhan23v/campus-compass) | College discovery and comparison for Indian students: search, filter, compare and review, with recommendations. | Next.js · PostgreSQL · Prisma · NextAuth |
+| [**IPL Auction**](https://github.com/vardhan23v/ipl-auction) | Live multiplayer auction rooms. Share a code, claim franchises and bid in real time from any phone. | Next.js · Socket.IO · Prisma · MySQL |
+| [**TrustLens AI**](https://github.com/vardhan23v/trustlens-ai) | Checks screenshots, messages and viral claims and returns an explainable, evidence-backed trust report. | Python · CrewAI · Gemini |
+| [**ChitChain**](https://github.com/vardhan23v/chitchain) | A trust-minimised chit fund. The pot lives in a smart contract, and an AI risk engine prices collateral. | TypeScript · Smart contracts · AI agents |
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-sand.svg" width="100%" alt=""/>
+### How I Build
 
-<img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/dune-footer.svg" width="100%" alt="May thy knife chip and shatter"/>
+A typical project of mine follows the same shape: a typed web client, an API layer that owns
+validation and auth, a relational database, and AI services kept behind the server.
+
+```mermaid
+flowchart LR
+    U[User] --> C[React / Next.js client]
+    C -->|REST · WebSocket| A[API layer<br/>Node.js · Express · Next.js routes]
+    A --> D[(PostgreSQL / MySQL<br/>via Prisma)]
+    A --> R[(Redis cache)]
+    A --> L[LLM services<br/>Gemini · Groq · OpenAI]
+    L --> T[Agents & MCP tools]
+    A --> H[Deploy<br/>Vercel · Railway · AWS]
+
+    classDef navy fill:#1E3A5F,stroke:#1E3A5F,color:#ffffff;
+    classDef cyan fill:#E6F7FA,stroke:#22B8CF,color:#2B2F36;
+    class C,A navy;
+    class D,R,L,T,H cyan;
+```
+
+---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vardhan23v&color=c2622d&style=flat-square&label=TRAVELLERS" alt="Profile views"/>
-  &nbsp;·&nbsp;
-  <a href="#top"><sub>BACK TO THE SIETCH ↑</sub></a>
+  <sub>
+    Vardhan V ·
+    <a href="https://vardhan-v-portfilo.vercel.app/">Portfolio</a> ·
+    <a href="https://www.linkedin.com/in/vardhan-v23/">LinkedIn</a> ·
+    <a href="https://github.com/vardhan23v">GitHub</a>
+  </sub>
 </p>
