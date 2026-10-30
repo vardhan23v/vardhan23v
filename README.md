@@ -49,7 +49,7 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     <td width="50%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-light.svg"  alt="AI assistant and MCP">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-light.svg"  alt="AI assistant">
       </picture>
       <h3><a href="https://github.com/vardhan23v/Vard-AI">Vard AI</a></h3>
       <p>A voice-first personal assistant: speak or type, and get answers streamed back token by token.</p>
@@ -60,7 +60,7 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     <td width="50%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-light.svg"  alt="Generative AI developer tool">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-light.svg"  alt="AI developer tool">
       </picture>
       <h3><a href="https://github.com/vardhan23v/extension-AI">Extension AI</a></h3>
       <p>Turns a plain-English prompt into a working Chrome extension, so an idea can be tried without writing the boilerplate.</p>
@@ -73,7 +73,7 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     <td width="50%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-light.svg"  alt="Agentic AI and trust">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-light.svg"  alt="Agentic AI">
       </picture>
       <h3><a href="https://github.com/vardhan23v/trustlens-ai">TrustLens AI</a></h3>
       <p>Analyses an image, video, audio clip or text and returns an evidence-backed trust report instead of a bare real-or-fake label.</p>

@@ -16,11 +16,12 @@ HERO = {
     "status": "Open to internships and collaborations",
 }
 
-# project slug -> category label shown above the card title
+# project slug -> category label shown above the card title. Keep them short:
+# on phones each card column is ~150 px and a longer label gets scaled down.
 KICKERS = {
-    "vard-ai": "AI ASSISTANT · MCP",
-    "extension-ai": "GENERATIVE AI · DEV TOOL",
-    "trustlens-ai": "AGENTIC AI · TRUST",
+    "vard-ai": "AI ASSISTANT",
+    "extension-ai": "AI DEV TOOL",
+    "trustlens-ai": "AGENTIC AI",
     "hpl-auction": "REAL-TIME",
     "campus-compass": "FULL-STACK",
     "chitchain": "WEB3 · AI",
