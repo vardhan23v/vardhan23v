@@ -1,159 +1,213 @@
 <!--
-  The header and project cards are static SVGs in assets/, in desktop and
-  mobile layouts, light and dark. Edit HEADER / PROJECTS and regenerate with:
-      python3 scripts/generate_glass.py
+  Images live in assets/ and come in light and dark (and desktop and mobile) variants.
+    python3 scripts/generate_glass.py                  hero, divider, project labels
+    GITHUB_TOKEN=... python3 scripts/generate_stats.py stats cards (also daily via .github/workflows/stats.yml)
 -->
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/header-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/header-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/header-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/header-light.svg" width="100%" alt="Vardhan V, Full-Stack Developer and Generative AI Builder. Open to internships, collaborations and freelance work.">
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/hero-light.svg" width="100%" alt="Sree Vardhan V, Full-Stack Developer and Generative AI Builder. I build full-stack web apps and AI-powered tools, from the first prototype to a deployed product. Open to internships and collaborations.">
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-2F6BD8?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-2F6BD8?style=flat-square" alt="LinkedIn"/></a>
-  <a href="https://github.com/vardhan23v?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0F7C99?style=flat-square&logo=github&logoColor=white" alt="Repositories"/></a>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0369A1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-0369A1?style=flat-square" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
-
-<br/>
-
-### About
-
-Most student and small-team projects stop at a demo. I take mine to deployment: typed end to end,
-backed by a real database, tested and live on the web.
-
-My focus is where full-stack engineering meets generative AI: agent workflows, MCP tooling and
-LLM features that hold up under real use, not only in a notebook.
-
-<br/>
-
-### Tech Stack
-
-**Languages**<br/>
-![TypeScript](https://img.shields.io/badge/TypeScript-2F6BD8?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-2F6BD8?style=flat-square&logo=javascript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-2F6BD8?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-2F6BD8?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-2F6BD8?style=flat-square&logo=mysql&logoColor=white)
-
-**Frameworks**<br/>
-![React](https://img.shields.io/badge/React-1E5AA8?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-1E5AA8?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-1E5AA8?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-1E5AA8?style=flat-square&logo=express&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1E5AA8?style=flat-square&logo=tailwindcss&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-1E5AA8?style=flat-square&logo=prisma&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-1E5AA8?style=flat-square&logo=socketdotio&logoColor=white)
-
-**Data & Cloud**<br/>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F7C99?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-0F7C99?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-0F7C99?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-0F7C99?style=flat-square&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-0F7C99?style=flat-square)
-![Vercel](https://img.shields.io/badge/Vercel-0F7C99?style=flat-square&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0F7C99?style=flat-square&logo=docker&logoColor=white)
-
-**AI / LLM**<br/>
-![Gemini](https://img.shields.io/badge/Gemini-5B5FC7?style=flat-square&logo=googlegemini&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI_API-5B5FC7?style=flat-square)
-![Groq](https://img.shields.io/badge/Groq_·_Llama-5B5FC7?style=flat-square&logo=meta&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-5B5FC7?style=flat-square)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-5B5FC7?style=flat-square&logo=anthropic&logoColor=white)
-
-<br/>
-
-### Selected Work
 
 <p align="center">
-  <a href="https://github.com/vardhan23v/campus-compass">
-    <picture>
-      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-campus-compass-mobile-dark.svg">
-      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-campus-compass-mobile-light.svg">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-campus-compass-dark.svg">
-      <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-campus-compass-light.svg" width="100%" alt="Campus Compass: college discovery and comparison for Indian students. Next.js, PostgreSQL, Prisma, NextAuth.">
-    </picture>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/vardhan23v/hpl-auction">
-    <picture>
-      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-hpl-auction-mobile-dark.svg">
-      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-hpl-auction-mobile-light.svg">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-hpl-auction-dark.svg">
-      <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-hpl-auction-light.svg" width="100%" alt="HPL Auction: live cricket auction with WebSocket bidding, a server-authoritative timer and captain dashboards. Next.js, Socket.IO, Prisma, MySQL.">
-    </picture>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/vardhan23v/trustlens-ai">
-    <picture>
-      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-trustlens-ai-mobile-dark.svg">
-      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-trustlens-ai-mobile-light.svg">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-trustlens-ai-dark.svg">
-      <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-trustlens-ai-light.svg" width="100%" alt="TrustLens AI: explainable, evidence-backed trust reports for screenshots, messages and viral claims. Python, CrewAI, Gemini.">
-    </picture>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/vardhan23v/chitchain">
-    <picture>
-      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-chitchain-mobile-dark.svg">
-      <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-chitchain-mobile-light.svg">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-chitchain-dark.svg">
-      <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/card-chitchain-light.svg" width="100%" alt="ChitChain: a trust-minimised chit fund on a smart contract with an AI risk engine. TypeScript, smart contracts, AI agents.">
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+  </picture>
 </p>
 
-<br/>
+## About me
 
-### Architecture
+I'm a computer science student who builds complete applications: from the interface and API down to the
+database, and out to a live deployment. Most of my recent work combines full-stack engineering with
+generative AI, from streaming LLM chat and tool-calling agents to multi-agent analysis pipelines.
 
-A typical project of mine follows the same shape: a typed web client, an API layer that owns
-validation and auth, a relational database, and AI services kept behind the server.
+- **Building with:** TypeScript, React and Next.js on the front, Node.js or FastAPI behind, PostgreSQL or MySQL underneath
+- **Focused on:** generative and agentic AI, developer tools and real-time applications
+- **Working style:** ship a working version early, then harden it with validation, tests and clear docs
+- **Open to:** software development internships and collaborative projects
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+  </picture>
+</p>
+
+## Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-vard-ai-light.svg"  alt="AI assistant and MCP">
+      </picture>
+      <h3><a href="https://github.com/vardhan23v/Vard-AI">Vard AI</a></h3>
+      <p>A voice-first personal assistant: speak or type, and get answers streamed back token by token.</p>
+      <p><b>Key feature:</b> Persistent memory across conversations and an extensible tool system built on the Model Context Protocol.</p>
+      <p><img src="https://img.shields.io/badge/TanStack_Start-DBEAFE?style=flat-square&logo=tanstack&logoColor=0369A1" alt="TanStack Start"> <img src="https://img.shields.io/badge/React-DBEAFE?style=flat-square&logo=react&logoColor=0369A1" alt="React"> <img src="https://img.shields.io/badge/TypeScript-DBEAFE?style=flat-square&logo=typescript&logoColor=0369A1" alt="TypeScript"> <img src="https://img.shields.io/badge/Groq-DBEAFE?style=flat-square" alt="Groq"> <img src="https://img.shields.io/badge/Supabase-DBEAFE?style=flat-square&logo=supabase&logoColor=0369A1" alt="Supabase"> <img src="https://img.shields.io/badge/MCP-DBEAFE?style=flat-square&logo=modelcontextprotocol&logoColor=0369A1" alt="MCP"></p>
+      <p><a href="https://github.com/vardhan23v/Vard-AI"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="Vard AI source code"></a> <a href="https://vard-ai.lovable.app"><img src="https://img.shields.io/badge/Live_demo-0369A1?style=flat-square" alt="Vard AI live demo"></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-extension-ai-light.svg"  alt="Generative AI developer tool">
+      </picture>
+      <h3><a href="https://github.com/vardhan23v/extension-AI">Extension AI</a></h3>
+      <p>Turns a plain-English prompt into a working Chrome extension, so an idea can be tried without writing the boilerplate.</p>
+      <p><b>Key feature:</b> Live in-browser preview, an AI copilot for refining the generated code, and a one-click .zip download.</p>
+      <p><img src="https://img.shields.io/badge/React-DBEAFE?style=flat-square&logo=react&logoColor=0369A1" alt="React"> <img src="https://img.shields.io/badge/Vite-DBEAFE?style=flat-square&logo=vite&logoColor=0369A1" alt="Vite"> <img src="https://img.shields.io/badge/Express-DBEAFE?style=flat-square&logo=express&logoColor=0369A1" alt="Express"> <img src="https://img.shields.io/badge/MongoDB-DBEAFE?style=flat-square&logo=mongodb&logoColor=0369A1" alt="MongoDB"> <img src="https://img.shields.io/badge/Gemini-DBEAFE?style=flat-square&logo=googlegemini&logoColor=0369A1" alt="Gemini"> <img src="https://img.shields.io/badge/Groq-DBEAFE?style=flat-square" alt="Groq"></p>
+      <p><a href="https://github.com/vardhan23v/extension-AI"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="Extension AI source code"></a> <a href="https://extension-ai-five.vercel.app"><img src="https://img.shields.io/badge/Live_demo-0369A1?style=flat-square" alt="Extension AI live demo"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-trustlens-ai-light.svg"  alt="Agentic AI and trust">
+      </picture>
+      <h3><a href="https://github.com/vardhan23v/trustlens-ai">TrustLens AI</a></h3>
+      <p>Analyses an image, video, audio clip or text and returns an evidence-backed trust report instead of a bare real-or-fake label.</p>
+      <p><b>Key feature:</b> CrewAI agents combine Gemini analysis, image forensics and rules, and the report states what could not be checked. Built at ACM × MLH Hack Days 2026.</p>
+      <p><img src="https://img.shields.io/badge/Python-DBEAFE?style=flat-square&logo=python&logoColor=0369A1" alt="Python"> <img src="https://img.shields.io/badge/FastAPI-DBEAFE?style=flat-square&logo=fastapi&logoColor=0369A1" alt="FastAPI"> <img src="https://img.shields.io/badge/CrewAI-DBEAFE?style=flat-square&logo=crewai&logoColor=0369A1" alt="CrewAI"> <img src="https://img.shields.io/badge/Gemini-DBEAFE?style=flat-square&logo=googlegemini&logoColor=0369A1" alt="Gemini"> <img src="https://img.shields.io/badge/React-DBEAFE?style=flat-square&logo=react&logoColor=0369A1" alt="React"></p>
+      <p><a href="https://github.com/vardhan23v/trustlens-ai"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="TrustLens AI source code"></a> <a href="https://trustlens-ai-production-5b04.up.railway.app"><img src="https://img.shields.io/badge/Live_demo-0369A1?style=flat-square" alt="TrustLens AI live demo"></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-hpl-auction-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-hpl-auction-light.svg"  alt="Real-time">
+      </picture>
+      <h3><a href="https://github.com/vardhan23v/hpl-auction">HPL Auction</a></h3>
+      <p>Runs a live cricket player auction for a six-team hostel league, with captains bidding from their phones.</p>
+      <p><b>Key feature:</b> Server-authoritative bidding over WebSockets and transaction-safe sales with row locks, so every client sees the same timer and purse.</p>
+      <p><img src="https://img.shields.io/badge/Next.js-DBEAFE?style=flat-square&logo=nextdotjs&logoColor=0369A1" alt="Next.js"> <img src="https://img.shields.io/badge/Socket.IO-DBEAFE?style=flat-square&logo=socketdotio&logoColor=0369A1" alt="Socket.IO"> <img src="https://img.shields.io/badge/Prisma-DBEAFE?style=flat-square&logo=prisma&logoColor=0369A1" alt="Prisma"> <img src="https://img.shields.io/badge/MySQL-DBEAFE?style=flat-square&logo=mysql&logoColor=0369A1" alt="MySQL"> <img src="https://img.shields.io/badge/NextAuth-DBEAFE?style=flat-square" alt="NextAuth"></p>
+      <p><a href="https://github.com/vardhan23v/hpl-auction"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="HPL Auction source code"></a> <a href="https://hpl-web-production.up.railway.app"><img src="https://img.shields.io/badge/Live_demo-0369A1?style=flat-square" alt="HPL Auction live demo"></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-campus-compass-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-campus-compass-light.svg"  alt="Full-stack">
+      </picture>
+      <h3><a href="https://github.com/vardhan23v/campus-compass">Campus Compass</a></h3>
+      <p>Helps Indian students discover colleges and compare up to three side by side on fees, placements and facilities.</p>
+      <p><b>Key feature:</b> Search and filtering with URL-persisted state, plus reviews and saved favourites behind NextAuth sign-in.</p>
+      <p><img src="https://img.shields.io/badge/Next.js-DBEAFE?style=flat-square&logo=nextdotjs&logoColor=0369A1" alt="Next.js"> <img src="https://img.shields.io/badge/PostgreSQL-DBEAFE?style=flat-square&logo=postgresql&logoColor=0369A1" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Prisma-DBEAFE?style=flat-square&logo=prisma&logoColor=0369A1" alt="Prisma"> <img src="https://img.shields.io/badge/NextAuth-DBEAFE?style=flat-square" alt="NextAuth"> <img src="https://img.shields.io/badge/Tailwind_CSS-DBEAFE?style=flat-square&logo=tailwindcss&logoColor=0369A1" alt="Tailwind CSS"></p>
+      <p><a href="https://github.com/vardhan23v/campus-compass"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="Campus Compass source code"></a> <a href="https://campus-compass-fawn.vercel.app"><img src="https://img.shields.io/badge/Live_demo-0369A1?style=flat-square" alt="Campus Compass live demo"></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-chitchain-dark.svg">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/kicker-chitchain-light.svg"  alt="Web3 and AI">
+      </picture>
+      <h3><a href="https://github.com/vardhan23v/chitchain">ChitChain</a></h3>
+      <p>A testnet chit-fund prototype where the pot and collateral sit in a smart contract instead of with one organiser.</p>
+      <p><b>Key feature:</b> An AI risk engine prices collateral and an agent can bid for members. Built in 24 hours for the MST × NEWRRO Buildathon 2026.</p>
+      <p><img src="https://img.shields.io/badge/Next.js-DBEAFE?style=flat-square&logo=nextdotjs&logoColor=0369A1" alt="Next.js"> <img src="https://img.shields.io/badge/Solidity-DBEAFE?style=flat-square&logo=solidity&logoColor=0369A1" alt="Solidity"> <img src="https://img.shields.io/badge/Hardhat-DBEAFE?style=flat-square" alt="Hardhat"> <img src="https://img.shields.io/badge/Express-DBEAFE?style=flat-square&logo=express&logoColor=0369A1" alt="Express"> <img src="https://img.shields.io/badge/FastAPI-DBEAFE?style=flat-square&logo=fastapi&logoColor=0369A1" alt="FastAPI"> <img src="https://img.shields.io/badge/CrewAI-DBEAFE?style=flat-square&logo=crewai&logoColor=0369A1" alt="CrewAI"></p>
+      <p><a href="https://github.com/vardhan23v/chitchain"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="ChitChain source code"></a></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><a href="https://github.com/vardhan23v?tab=repositories">Browse all repositories →</a></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+  </picture>
+</p>
+
+## Technology stack
+
+<table>
+<tr><td><b>Languages</b></td><td><img src="https://img.shields.io/badge/TypeScript-DBEAFE?style=flat-square&logo=typescript&logoColor=0369A1" alt="TypeScript"> <img src="https://img.shields.io/badge/JavaScript-DBEAFE?style=flat-square&logo=javascript&logoColor=0369A1" alt="JavaScript"> <img src="https://img.shields.io/badge/Python-DBEAFE?style=flat-square&logo=python&logoColor=0369A1" alt="Python"> <img src="https://img.shields.io/badge/Java-DBEAFE?style=flat-square&logo=openjdk&logoColor=0369A1" alt="Java"> <img src="https://img.shields.io/badge/SQL-DBEAFE?style=flat-square" alt="SQL"></td></tr>
+<tr><td><b>Frontend</b></td><td><img src="https://img.shields.io/badge/React-DBEAFE?style=flat-square&logo=react&logoColor=0369A1" alt="React"> <img src="https://img.shields.io/badge/Next.js-DBEAFE?style=flat-square&logo=nextdotjs&logoColor=0369A1" alt="Next.js"> <img src="https://img.shields.io/badge/Tailwind_CSS-DBEAFE?style=flat-square&logo=tailwindcss&logoColor=0369A1" alt="Tailwind CSS"></td></tr>
+<tr><td><b>Backend</b></td><td><img src="https://img.shields.io/badge/Node.js-DBEAFE?style=flat-square&logo=nodedotjs&logoColor=0369A1" alt="Node.js"> <img src="https://img.shields.io/badge/Express.js-DBEAFE?style=flat-square&logo=express&logoColor=0369A1" alt="Express.js"> <img src="https://img.shields.io/badge/REST_APIs-DBEAFE?style=flat-square" alt="REST APIs"> <img src="https://img.shields.io/badge/Socket.IO-DBEAFE?style=flat-square&logo=socketdotio&logoColor=0369A1" alt="Socket.IO"> <img src="https://img.shields.io/badge/FastAPI-DBEAFE?style=flat-square&logo=fastapi&logoColor=0369A1" alt="FastAPI"></td></tr>
+<tr><td><b>Databases</b></td><td><img src="https://img.shields.io/badge/PostgreSQL-DBEAFE?style=flat-square&logo=postgresql&logoColor=0369A1" alt="PostgreSQL"> <img src="https://img.shields.io/badge/MySQL-DBEAFE?style=flat-square&logo=mysql&logoColor=0369A1" alt="MySQL"> <img src="https://img.shields.io/badge/MongoDB-DBEAFE?style=flat-square&logo=mongodb&logoColor=0369A1" alt="MongoDB"></td></tr>
+<tr><td><b>AI & agentic development</b></td><td><img src="https://img.shields.io/badge/Gemini-DBEAFE?style=flat-square&logo=googlegemini&logoColor=0369A1" alt="Gemini"> <img src="https://img.shields.io/badge/Groq-DBEAFE?style=flat-square" alt="Groq"> <img src="https://img.shields.io/badge/CrewAI-DBEAFE?style=flat-square&logo=crewai&logoColor=0369A1" alt="CrewAI"> <img src="https://img.shields.io/badge/Model_Context_Protocol-DBEAFE?style=flat-square&logo=modelcontextprotocol&logoColor=0369A1" alt="Model Context Protocol"></td></tr>
+<tr><td><b>Tools & deployment</b></td><td><img src="https://img.shields.io/badge/Git-DBEAFE?style=flat-square&logo=git&logoColor=0369A1" alt="Git"> <img src="https://img.shields.io/badge/GitHub-DBEAFE?style=flat-square&logo=github&logoColor=0369A1" alt="GitHub"> <img src="https://img.shields.io/badge/Docker-DBEAFE?style=flat-square&logo=docker&logoColor=0369A1" alt="Docker"> <img src="https://img.shields.io/badge/Vercel-DBEAFE?style=flat-square&logo=vercel&logoColor=0369A1" alt="Vercel"> <img src="https://img.shields.io/badge/Railway-DBEAFE?style=flat-square&logo=railway&logoColor=0369A1" alt="Railway"> <img src="https://img.shields.io/badge/Prisma-DBEAFE?style=flat-square&logo=prisma&logoColor=0369A1" alt="Prisma"></td></tr>
+<tr><td><b>Exploring</b></td><td><img src="https://img.shields.io/badge/Redis-F1F5F9?style=flat-square&logo=redis&logoColor=475569" alt="Redis"> <img src="https://img.shields.io/badge/OpenAI_API-F1F5F9?style=flat-square" alt="OpenAI API"> <img src="https://img.shields.io/badge/Solidity-F1F5F9?style=flat-square&logo=solidity&logoColor=475569" alt="Solidity"></td></tr>
+</table>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+  </picture>
+</p>
+
+## GitHub activity
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-overview-light.svg" width="100%" alt="GitHub statistics and the main languages across my public repositories, updated daily.">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-mobile-dark.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/stats-activity-light.svg" width="100%" alt="Contribution heatmap for the last 12 months, updated daily.">
+  </picture>
+</p>
+
+<p align="center"><sub>Generated daily from the GitHub API by a workflow in this repository. Public, non-fork repositories only.</sub></p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+  </picture>
+</p>
+
+## How I build
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Inter, Segoe UI, Helvetica, Arial, sans-serif", "lineColor": "#5B84D6", "primaryTextColor": "#0F2744"}}}%%
 flowchart LR
-    U([User]) --> C[React / Next.js client]
-    C -->|REST · WebSocket| A[API layer<br/>Node.js · Express · Next.js routes]
-    A --> D[(PostgreSQL / MySQL<br/>via Prisma)]
-    A --> R[(Redis cache)]
-    A --> L[LLM services<br/>Gemini · Groq · OpenAI]
-    L --> T[Agents & MCP tools]
+    U([User]) --> F[Frontend<br/>React · Next.js]
+    F --> B[Backend / API<br/>Node.js · FastAPI]
+    B --> D[(Database<br/>PostgreSQL · MySQL)]
+    B --> AI[AI integrations<br/>Gemini · Groq · agents]
+    D --> P[Deployment<br/>Vercel · Railway · Docker]
+    AI --> P
 
-    classDef glass fill:#EEF5FF,stroke:#9CC0F5,stroke-width:1px,color:#0F2744;
-    classDef accent fill:#E3F7FC,stroke:#5CCDE6,stroke-width:1px,color:#0F2744;
-    class U,C,A glass;
-    class D,R,L,T accent;
+    classDef soft fill:#DBEAFE,stroke:#0284C7,stroke-width:1px,color:#1E293B;
+    classDef cyan fill:#CFFAFE,stroke:#0284C7,stroke-width:1px,color:#1E293B;
+    class U,F,B soft;
+    class D,AI,P cyan;
 ```
 
-### Workflow
-
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Inter, Segoe UI, Helvetica, Arial, sans-serif", "lineColor": "#5B84D6", "primaryTextColor": "#0F2744"}}}%%
-flowchart LR
-    P[Plan<br/>scope · data model] --> B[Build<br/>typed end to end] --> T[Test<br/>unit · e2e] --> S[Ship<br/>Vercel · Railway · AWS] --> I[Iterate<br/>feedback · metrics]
-    I -.-> P
-
-    classDef glass fill:#EEF5FF,stroke:#9CC0F5,stroke-width:1px,color:#0F2744;
-    classDef accent fill:#E3F7FC,stroke:#5CCDE6,stroke-width:1px,color:#0F2744;
-    class P,B,T glass;
-    class S,I accent;
-```
-
-<br/>
+I keep each layer's job clear. The frontend owns the experience and its loading, error and empty
+states. The API validates every input and owns business rules and authentication. The database
+enforces integrity with constraints and transactions. AI calls stay on the server, behind typed
+interfaces, so models can change without touching the UI. Then I deploy early and keep it running.
 
 <p align="center">
-  <sub>
-    Vardhan V ·
-    <a href="https://vardhan-v-portfilo.vercel.app/">Portfolio</a> ·
-    <a href="https://www.linkedin.com/in/vardhan-v23/">LinkedIn</a> ·
-    <a href="https://github.com/vardhan23v">GitHub</a>
-  </sub>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/readme-redesign/assets/divider-light.svg" width="100%" alt="">
+  </picture>
+</p>
+
+## Let's connect
+
+I'm happy to talk about internships, collaborations, or anything you're building with full-stack and AI.
+
+<p align="center">
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0369A1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-0369A1?style=flat-square" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
