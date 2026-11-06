@@ -167,6 +167,10 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/koi/koi.gif" width="256" alt="A pixel-art koi drawn from my public GitHub activity, redrawn every night.">
+</p>
+
 <p align="center"><sub>Generated daily from the GitHub API by a workflow in this repository. Public, non-fork repositories only.</sub></p>
 
 <p align="center">
