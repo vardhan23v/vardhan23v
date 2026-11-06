@@ -158,14 +158,6 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-overview-light.svg" width="100%" alt="GitHub statistics and the main languages across my public repositories, updated daily.">
   </picture>
 </p>
-<p align="center">
-  <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-mobile-dark.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-dark.svg">
-    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/stats-activity-light.svg" width="100%" alt="Contribution heatmap for the last 12 months, updated daily.">
-  </picture>
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/koi/koi.gif" width="256" alt="A pixel-art koi drawn from my public GitHub activity, redrawn every night.">
