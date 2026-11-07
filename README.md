@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0369A1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-0369A1?style=flat-square" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
 <p align="center">
@@ -177,5 +177,5 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 I'm happy to talk about collaborations, or anything you're building with full-stack and AI.
 
 <p align="center">
-  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0369A1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-0369A1?style=flat-square" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://vardhan-v-portfilo.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a> <a href="https://www.linkedin.com/in/vardhan-v23/"><img src="https://img.shields.io/badge/LinkedIn-0369A1?style=flat-square" alt="LinkedIn"></a> <a href="mailto:nnm24cs285@nmamit.in"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email nnm24cs285@nmamit.in"></a> <a href="https://github.com/vardhan23v"><img src="https://img.shields.io/badge/GitHub-1E293B?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
