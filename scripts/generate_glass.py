@@ -23,7 +23,7 @@ KICKERS = {
     "extension-ai": "AI DEV TOOL",
     "trustlens-ai": "AGENTIC AI",
     "hpl-auction": "REAL-TIME",
-    "campus-compass": "FULL-STACK",
+    "skyline": "FULL-STACK",
     "chitchain": "WEB3 · AI",
 }
 
