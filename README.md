@@ -49,13 +49,13 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
     <td width="50%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-vard-ai-dark.svg">
-        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-vard-ai-light.svg"  alt="AI assistant">
+        <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/kicker-vard-ai-light.svg"  alt="Desktop AI">
       </picture>
       <h3><a href="https://github.com/vardhan23v/Vard-AI">Vard AI</a></h3>
-      <p>A voice-first personal assistant: speak or type, and get answers streamed back token by token.</p>
-      <p><b>Key feature:</b> Persistent memory across conversations and an extensible tool system built on the Model Context Protocol.</p>
-      <p><img src="https://img.shields.io/badge/TanStack_Start-DBEAFE?style=flat-square&logo=tanstack&logoColor=0369A1" alt="TanStack Start"> <img src="https://img.shields.io/badge/React-DBEAFE?style=flat-square&logo=react&logoColor=0369A1" alt="React"> <img src="https://img.shields.io/badge/TypeScript-DBEAFE?style=flat-square&logo=typescript&logoColor=0369A1" alt="TypeScript"> <img src="https://img.shields.io/badge/Groq-DBEAFE?style=flat-square" alt="Groq"> <img src="https://img.shields.io/badge/Supabase-DBEAFE?style=flat-square&logo=supabase&logoColor=0369A1" alt="Supabase"> <img src="https://img.shields.io/badge/MCP-DBEAFE?style=flat-square&logo=modelcontextprotocol&logoColor=0369A1" alt="MCP"></p>
-      <p><a href="https://github.com/vardhan23v/Vard-AI"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="Vard AI source code"></a> <a href="https://vard-ai.lovable.app"><img src="https://img.shields.io/badge/Live_demo-0369A1?style=flat-square" alt="Vard AI live demo"></a></p>
+      <p>A macOS desktop app that pairs a streaming AI chat with a coding agent that works on your own git projects.</p>
+      <p><b>Key feature:</b> The agent plans first, runs each task in its own git worktree, asks before risky commands and shows the diff before anything merges. API keys stay in the macOS Keychain.</p>
+      <p><img src="https://img.shields.io/badge/Tauri-DBEAFE?style=flat-square&logo=tauri&logoColor=0369A1" alt="Tauri"> <img src="https://img.shields.io/badge/Rust-DBEAFE?style=flat-square&logo=rust&logoColor=0369A1" alt="Rust"> <img src="https://img.shields.io/badge/React-DBEAFE?style=flat-square&logo=react&logoColor=0369A1" alt="React"> <img src="https://img.shields.io/badge/TypeScript-DBEAFE?style=flat-square&logo=typescript&logoColor=0369A1" alt="TypeScript"> <img src="https://img.shields.io/badge/Vercel_AI_SDK-DBEAFE?style=flat-square&logo=vercel&logoColor=0369A1" alt="Vercel AI SDK"> <img src="https://img.shields.io/badge/Firebase-DBEAFE?style=flat-square&logo=firebase&logoColor=0369A1" alt="Firebase"></p>
+      <p><a href="https://github.com/vardhan23v/Vard-AI"><img src="https://img.shields.io/badge/Source-1E293B?style=flat-square&logo=github&logoColor=white" alt="Vard AI source code"></a></p>
     </td>
     <td width="50%" valign="top">
       <picture>

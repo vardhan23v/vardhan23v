@@ -19,7 +19,7 @@ HERO = {
 # project slug -> category label shown above the card title. Keep them short:
 # on phones each card column is ~150 px and a longer label gets scaled down.
 KICKERS = {
-    "vard-ai": "AI ASSISTANT",
+    "vard-ai": "DESKTOP AI",
     "extension-ai": "AI DEV TOOL",
     "trustlens-ai": "AGENTIC AI",
     "hpl-auction": "REAL-TIME",
