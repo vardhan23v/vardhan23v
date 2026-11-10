@@ -128,6 +128,22 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
   </picture>
 </p>
 
+## Recent work
+
+- **[Portfolio](https://vardhan-v-portfilo.vercel.app/)**: added an AI assistant that answers questions about my projects from their real code and docs, using retrieval over Supabase pgvector with Groq models. Also smoother page transitions and an accessibility pass. ([source](https://github.com/vardhan23v/vardhan-v-portfilo))
+- **[Extensio AI](https://github.com/vardhan23v/extension-AI)**: a Testing Lab that loads each generated extension in real Chromium through Playwright on GitHub Actions, one-click export to a GitHub repo, and Google sign-in. ([live](https://extension-ai-five.vercel.app))
+- **[StockSense](https://github.com/vardhan23v/stocks)** (new): a Spring Boot 3 app that gives explainable, rule-based buy, hold or sell signals from price history and technical indicators, with Spring Security and MySQL. ([live](https://web-production-4861b6.up.railway.app))
+- **[IPL Mega Auction](https://github.com/vardhan23v/ipl-auction)**: auction rooms anyone can host. Share a code, friends claim the ten franchises and bid live from their phones, with Right-To-Match cards. Now running on Railway. ([live](https://ipl-web-production-0e11.up.railway.app))
+- **[create-frontend skill](https://github.com/vardhan23v/frontend-skill)** v4.0.0: an open agent skill for Claude Code, Codex, Cursor and others that takes a frontend from stack choice to a verified, deploy-ready build.
+- **Lab references**: complete, exam-ordered code for the [Operating Systems](https://github.com/vardhan23v/operating-systems-lab) and [Computer Networks](https://github.com/vardhan23v/computer-networks-lab) labs, with viva notes.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
+    <img src="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-light.svg" width="100%" alt="">
+  </picture>
+</p>
+
 ## Technology stack
 
 <table>
