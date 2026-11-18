@@ -17,7 +17,8 @@ jobs:
       - name: regenerate stats cards
         run: python3 scripts/generate_stats.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # STATS_TOKEN is a personal token, so the contribution calendar and streak match the profile.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: commit if changed
         run: |
