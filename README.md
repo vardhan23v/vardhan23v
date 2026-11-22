@@ -165,6 +165,14 @@ generative AI, from streaming LLM chat and tool-calling agents to multi-agent an
 
 <p align="center"><sub>Generated daily from the GitHub API by a workflow in this repository. Public, non-fork repositories only.</sub></p>
 
+## Badges
+
+<p align="center">
+  <a href="https://cloud.layer5.io/user/2ac5dd35-adbc-41b6-9deb-0a80a59ada85?tab=badges&badge=first-design"><img width="175" height="252" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="Layer5 First Design badge"></a>
+  <br>
+  <sup><a href="https://badges.layer5.io">Get your own badge</a></sup>
+</p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vardhan23v/vardhan23v/main/assets/divider-dark.svg">
